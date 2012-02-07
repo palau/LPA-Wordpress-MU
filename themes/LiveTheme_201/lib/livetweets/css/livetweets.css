@@ -1,0 +1,13 @@
+/*
+ * Live Tweets CSS
+ * Copyright (c) 2010 The Standard Theme Team
+ * Licensed under GPL2
+ * http://standardtheme.com
+ */
+ 
+.live_tweets_controls,
+.live_tweets_resume,
+.live_tweets_error { display: none; }
+.live_tweets_loading { margin: 125px 0 0 145px; }
+
+.live_tweets_hashtag_notice { float:left; font-size: 11px; text-shadow: 1px 1px 1px white; color: #333; margin: 9px 0 0 10px; padding: 3px 5px; background: #ccc;  }

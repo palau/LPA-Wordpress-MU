@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pavel Ciorici <cioricip@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "% Comments"
+msgstr "% Comentarii"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "% Responses"
+msgstr "% Comentarii"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "0 Comments"
+msgstr "0 Comentarii"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "1 Comment"
+msgstr "1 Comentariu"
+
+#. Text in echo
+#: headlines/footer.php:21
+msgid "All Rights Reserved."
+msgstr "Toate Drepturile Rezervate."
+
+#. Text in echo
+#: headlines/archive.php:9
+#: headlines/archive.php:12
+#: headlines/archive.php:15
+#: headlines/archive.php:18
+#: headlines/header.php:11
+#: headlines/header.php:12
+msgid "Archive"
+msgstr "Arhivă"
+
+#. Text in echo
+#: headlines/archive.php:21
+msgid "Archive by Author"
+msgstr "Arhivă după Autor"
+
+#. Text in echo
+#: headlines/header.php:8
+msgid "Author Archives"
+msgstr "Arhivele Autorului"
+
+#. Text in function
+#: headlines/includes/theme-widgets.php:210
+msgid "Author Info"
+msgstr "Despre Autor"
+
+#. Text in echo
+#: headlines/template-archives.php:28
+#: headlines/template-sitemap.php:24
+msgid "Categories"
+msgstr "Categorii"
+
+#. Text in echo
+#: headlines/sidebar.php:13
+#: headlines/template-sitemap.php:45
+msgid "Comments"
+msgstr "Comentarii"
+
+#. Text in echo
+#: headlines/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr "Comentarii la acest Articol"
+
+#. Text in echo
+#: headlines/comments-legacy.php:117
+#: headlines/comments.php:53
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Designed by"
+msgstr "Conceput de"
+
+#. Text in echo
+#: headlines/includes/theme-comments.php:29
+msgid "Direct link to this comment"
+msgstr "Link direct la acest comentariu"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:11
+msgid "Email"
+msgstr "E-mail"
+
+#. Text in echo
+#: headlines/comments.php:92
+msgid "Email (required)"
+msgstr "E-mail (obligatoriu)"
+
+#. Text in echo
+#: headlines/search-form.php:6
+#: headlines/header.php:132
+msgid "Enter keywords..."
+msgstr "Introduce cuvinte-cheie..."
+
+#. Text in echo
+#: headlines/includes/featured.php:4
+msgid "Featured"
+msgstr "Featured"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Follow on Twitter"
+msgstr "Urmărește pe Twitter"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:4
+msgid "Home"
+msgstr "Acasă"
+
+#. Text in echo
+#: headlines/sidebar.php:12
+msgid "Latest"
+msgstr "Recent"
+
+#. Text in echo
+#: headlines/comments-legacy.php:126
+#: headlines/comments.php:65
+msgid "Leave a Reply"
+msgstr "Postează un Răspuns"
+
+#. Text in function
+#: headlines/comments.php:65
+msgid "Leave a Reply to %s"
+msgstr "Postează un Răspuns pentru %s"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Log out of this account"
+msgstr "Ieșire din acest cont"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logged in as"
+msgstr "Logat ca"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logout"
+msgstr "Ieșire"
+
+#. Text in echo
+#: headlines/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr "E-mail (nu va fi afișat)"
+
+#. Text in echo
+#: headlines/template-archives.php:34
+msgid "Monthly Archives"
+msgstr "Archive Lunare"
+
+#. Text in echo
+#: headlines/comments-legacy.php:141
+msgid "Name"
+msgstr "Nume"
+
+#. Text in echo
+#: headlines/comments.php:88
+msgid "Name (required)"
+msgstr "Nume (obligatoriu)"
+
+#. Text in function
+#: headlines/search.php:44
+#: headlines/index.php:54
+#: headlines/archive.php:75
+msgid "Newer Entries"
+msgstr "Posturi Recente"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "No Responses"
+msgstr "Nici un Comentariu"
+
+#. Text in echo
+#: headlines/comments.php:49
+msgid "No comments yet... Be the first to leave a reply!"
+msgstr "Nici un comentariu... Fii primul să răspunzi!"
+
+#. Text in function
+#: headlines/search.php:45
+#: headlines/index.php:55
+#: headlines/archive.php:76
+msgid "Older Entries"
+msgstr "Posturi mai vechi"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "One Response"
+msgstr "Un Comentariu"
+
+#. Text in echo
+#: headlines/template-sitemap.php:18
+msgid "Pages"
+msgstr "Pagini"
+
+#. Text in echo
+#: headlines/includes/latest.php:8
+msgid "Permalink to "
+msgstr "Permalink către"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:63
+msgid "Photos on <span>Flick<span>r</span></span>"
+msgstr "Fotografii pe <span>Flick<span>r</span></span>"
+
+#. Text in echo
+#: headlines/sidebar.php:11
+msgid "Popular"
+msgstr "Popular"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:9
+msgid "Posts"
+msgstr "Posturi"
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Powered by"
+msgstr "Powered by"
+
+#. Text in echo
+#: headlines/index.php:30
+#: headlines/includes/featured.php:54
+#: headlines/archive.php:51
+msgid "Read more"
+msgstr "Continuare"
+
+#. Text in function
+#: headlines/index.php:28
+#: headlines/archive.php:49
+msgid "Read more..."
+msgstr "Continuare..."
+
+#. Text in echo
+#: headlines/search-form.php:3
+#: headlines/search-form.php:7
+msgid "Search"
+msgstr "Căutare"
+
+#. Text in echo
+#: headlines/header.php:7
+msgid "Search Results"
+msgstr "Rezultatele Căutării"
+
+#. Text in echo
+#: headlines/search.php:8
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#. Text in echo
+#: headlines/single.php:35
+msgid "Share"
+msgstr "Share"
+
+#. Text in echo
+#: headlines/template-fullwidth.php:29
+#: headlines/single.php:61
+#: headlines/search.php:37
+#: headlines/index.php:47
+#: headlines/404.php:19
+#: headlines/page.php:29
+#: headlines/archive.php:68
+msgid "Sorry, no posts matched your criteria."
+msgstr "Ne pare rău, nu a fost găsit niciun articol potrivit criteriilor Dvs."
+
+#. Text in echo
+#: headlines/comments-legacy.php:155
+#: headlines/comments.php:109
+msgid "Submit Comment"
+msgstr "Comentează"
+
+#. Text in echo
+#: headlines/header.php:13
+msgid "Tag Archive"
+msgstr "Arhiva Cuvintelor-cheie"
+
+#. Text in echo
+#: headlines/archive.php:24
+msgid "Tag Archives:"
+msgstr "Arhivele Cuvintelor-cheie"
+
+#. Text in echo
+#: headlines/sidebar.php:14
+msgid "Tags"
+msgstr "Cuvinte-cheie"
+
+#. Text in echo
+#: headlines/template-archives.php:18
+msgid "The Last 30 Posts"
+msgstr "Ultimele 30 de Posturi"
+
+#. Text in echo
+#: headlines/comments-legacy.php:9
+#: headlines/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Acest articol este ascuns prin parolă. Introdu parola pentru a vedea comentariile."
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "This post was written by"
+msgstr "Acest articol a fost scris de"
+
+#. Text in echo
+#: headlines/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr "Trackback-uri pentru acest Articol"
+
+#. Text in echo
+#: headlines/comments.php:35
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackback-uri/Ping-uri"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Text in echo
+#: headlines/comments-legacy.php:147
+msgid "Website"
+msgstr "Website"
+
+#. Text in echo
+#: headlines/comments.php:77
+#: headlines/comments.php:96
+msgid "Website (optional)"
+msgstr "Website (opțional)"
+
+#. Text in echo
+#: headlines/comments.php:105
+msgid "You can use these tags"
+msgstr "Poți utiliza aceste cuvinte-cheie"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "You must be"
+msgstr "Trebuie să fii"
+
+#. Text in echo
+#: headlines/comments-legacy.php:57
+#: headlines/comments-legacy.php:89
+#: headlines/includes/theme-comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău așteaptă să fie moderat"
+
+#. Text in echo
+#: headlines/comments-legacy.php:61
+#: headlines/comments-legacy.php:93
+#: headlines/includes/theme-comments.php:29
+msgid "at"
+msgstr "la"
+
+#. Text in echo
+#: headlines/template-archives.php:24
+msgid "comments"
+msgstr "comentarii"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "logged in"
+msgstr "logat"
+
+#. Text in echo
+#: headlines/includes/comments.php:29
+msgid "on "
+msgstr "pe"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "posts on"
+msgstr "articole despre"
+
+#. Text in echo
+#: headlines/comments.php:19
+msgid "to"
+msgstr "la"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "to post a comment."
+msgstr "pentru a posta un comentariu."
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "who has written"
+msgstr "care a mai publicat"
+
+#. Text in echo
+#: headlines/archive.php:9
+msgid "RSS feed for this section"
+msgstr "Flux RSS pentru această secțiune"
+

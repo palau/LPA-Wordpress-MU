@@ -1,0 +1,56 @@
+/* WPtouch Pro Admin CSS > Classic Styles (Blue)   */
+
+/* @group Classic Styles */
+
+.classic.beta #wptouch-admin-top h2 {
+	background: url(../images/admin-phone-48-classic-beta.png) no-repeat left center;
+}
+
+.classic.normal #wptouch-admin-top h2 {
+	background: url(../images/admin-phone-48-classic.png) no-repeat left center;
+}
+
+#bnc.classic ul#wptouch-top-menu li a.active {
+	color: #d54e21;
+	background: url(../images/up-arrow-classic.png) no-repeat center bottom;
+}
+
+#bnc #wptouch-tabbed-area {
+	border: 1px solid #d3d3d3;
+	background-color: #f0f6fb;
+	padding: 8px 8px 0;
+}
+
+#bnc .box-holder h3, #bnc .wptouch-right-align {
+	background: #d5e6f2 url(../images/blue-grad.png) repeat-x left top;
+}
+
+#bnc legend {
+	font: italic bold 16px Georgia, "Times New Roman", Times, serif;
+	color: #264761;
+}
+
+#bnc h4 {
+	font: italic bold 16px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 0;
+	color: #264761;
+	margin-bottom: 13px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#bnc input.text:focus {
+	background: 
+	-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #fff);
+	border: 1px solid #6d94b1;
+}
+
+#bnc textarea.textarea:focus {
+	background: 
+	-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #fff);
+	border: 1px solid #6d94b1;
+}
+
+/* @end */

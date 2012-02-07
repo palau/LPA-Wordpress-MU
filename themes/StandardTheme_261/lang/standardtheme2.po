@@ -1,0 +1,1106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Standard Theme 2.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-17 16:07-0500\n"
+"PO-Revision-Date: 2011-03-17 16:07-0500\n"
+"Last-Translator: \n"
+"Language-Team: 8BIT <staff@8bit.io>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: ../404.php:10
+msgid "Something broke - please try again!"
+msgstr ""
+
+#: ../archive.php:13
+msgid "Error 404 - Page Not Found!"
+msgstr ""
+
+#: ../archive.php:16
+#: ../fullwidth.php:26
+#: ../index.php:15
+#: ../page.php:25
+msgid "Whoops! Something broke. Please try again!"
+msgstr ""
+
+#: ../archives.php:12
+msgid "The Last 30 Blog Posts:"
+msgstr ""
+
+#: ../archives.php:19
+msgid "Comments"
+msgstr ""
+
+#: ../archives.php:24
+msgid "Categories:"
+msgstr ""
+
+#: ../archives.php:30
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../comments.php:9
+msgid "This post is <strong>password protected</strong>. Enter the password above to view the comments."
+msgstr ""
+
+#: ../comments.php:17
+msgid "No Responses"
+msgstr ""
+
+#: ../comments.php:17
+msgid "One Response"
+msgstr ""
+
+#: ../comments.php:17
+msgid "% Responses"
+msgstr ""
+
+#: ../comments.php:17
+msgid "to"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Trackbacks/Pingbacks:"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Wow. It's Quiet Here..."
+msgstr ""
+
+#: ../comments.php:50
+msgid "Be the first to start the conversation!"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Sorry, Comments are Closed."
+msgstr ""
+
+#: ../comments.php:60
+msgid "You'll have to take it up with the author..."
+msgstr ""
+
+#: ../comments.php:69
+msgid "Leave a Reply:"
+msgstr ""
+
+#: ../comments.php:69
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:90
+#, php-format
+msgid "You must be <a href=\"%s/wp-login.php?redirect_to=%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:96
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Logout &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:101
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:102
+#: ../comments.php:108
+msgid "(required)"
+msgstr ""
+
+#: ../comments.php:107
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:113
+msgid "URL"
+msgstr ""
+
+#: ../comments.php:119
+msgid "XHTML"
+msgstr ""
+
+#: ../comments.php:127
+msgid "Submit Comment"
+msgstr ""
+
+#: ../fullwidth.php:23
+#: ../index.php:12
+#: ../page.php:22
+msgid "Sorry!"
+msgstr ""
+
+#: ../loop-aside.php:11
+#: ../loop-image.php:12
+#: ../loop-quote.php:12
+#: ../loop-video.php:7
+#: ../loop.php:27
+msgid "Continue Reading..."
+msgstr ""
+
+#: ../loop-image.php:27
+#: ../loop-video.php:22
+#: ../loop.php:12
+msgid "in"
+msgstr ""
+
+#: ../loop-image.php:30
+#: ../loop-video.php:25
+#: ../loop.php:15
+msgid "with"
+msgstr ""
+
+#: ../loop-image.php:32
+#: ../loop-video.php:27
+#: ../loop.php:17
+msgid "0 Comments"
+msgstr ""
+
+#: ../loop-image.php:32
+#: ../loop-video.php:27
+#: ../loop.php:17
+msgid "1 Comment"
+msgstr ""
+
+#: ../loop-image.php:32
+#: ../loop-video.php:27
+#: ../loop.php:17
+msgid "% Comments"
+msgstr ""
+
+#: ../search.php:7
+msgid "Search Results: "
+msgstr ""
+
+#: ../search.php:7
+#, php-format
+msgid "'%s'"
+msgstr ""
+
+#: ../search.php:40
+msgid "Sorry! No posts match your criteria!"
+msgstr ""
+
+#: ../seotitles.php:25
+msgid "Search Results for"
+msgstr ""
+
+#: ../seotitles.php:25
+msgid "Articles"
+msgstr ""
+
+#: ../seotitles.php:26
+msgid "404 Nothing Found"
+msgstr ""
+
+#: ../seotitles.php:27
+msgid "Author Archives"
+msgstr ""
+
+#: ../seotitles.php:31
+#: ../seotitles.php:32
+msgid "Archive"
+msgstr ""
+
+#: ../seotitles.php:33
+msgid "Tag Archive"
+msgstr ""
+
+#: ../sitemap.php:11
+msgid "Pages:"
+msgstr ""
+
+#: ../sitemap.php:23
+msgid "Posts Per Category:"
+msgstr ""
+
+#: ../thumb.php:46
+msgid "no image specified"
+msgstr ""
+
+#: ../thumb.php:83
+msgid "Invalid src mime type: "
+msgstr ""
+
+#: ../thumb.php:88
+msgid "GD Library Error: imagecreatetruecolor does not exist"
+msgstr ""
+
+#: ../thumb.php:96
+msgid "Unable to open image : "
+msgstr ""
+
+#: ../thumb.php:218
+#, php-format
+msgid "image %s not found"
+msgstr ""
+
+#: ../thumb.php:220
+msgid "no source specified"
+msgstr ""
+
+#: ../thumb.php:260
+msgid "error showing image"
+msgstr ""
+
+#: ../thumb.php:593
+#, php-format
+msgid "file not found %s"
+msgstr ""
+
+#: ../admin/functions.php:555
+msgid "Select from the Standard Theme Gallery"
+msgstr ""
+
+#: ../lib/followcount.php:11
+msgid "Displays the total number of Twitter and FeedBurner followers."
+msgstr ""
+
+#: ../lib/followcount.php:30
+msgid "twitter + feedburner"
+msgstr ""
+
+#: ../lib/followcount.php:83
+msgid "Twitter Username (without '@'):"
+msgstr ""
+
+#: ../lib/followcount.php:89
+msgid "FeedBurner Name:"
+msgstr ""
+
+#: ../lib/followcount.php:96
+msgid "Clear cache on save?"
+msgstr ""
+
+#: ../lib/standardtheme.php:61
+#, php-format
+msgid "Check this Post from %s - %s"
+msgstr ""
+
+#: ../lib/standardtheme.php:62
+#, php-format
+msgid "I recommend this page : %s. You can read it on : %s"
+msgstr ""
+
+#: ../lib/standardtheme.php:172
+msgid "Select to return to default"
+msgstr ""
+
+#: ../lib/standardtheme.php:257
+msgid "at"
+msgstr ""
+
+#: ../lib/standardtheme.php:260
+msgid "Edit"
+msgstr ""
+
+#: ../lib/standardtheme.php:274
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: ../lib/standardtheme.php:278
+msgid "Reply"
+msgstr ""
+
+#: ../lib/standardtheme.php:425
+msgid "Standard Theme Custom Menu 1"
+msgstr ""
+
+#: ../lib/standardtheme.php:426
+msgid "Standard Theme Custom Menu 2"
+msgstr ""
+
+#: ../lib/standardtheme.php:427
+msgid "Standard Theme Custom Menu 3"
+msgstr ""
+
+#: ../lib/standardtheme.php:500
+#: ../lib/standard_yoast_breadcrumbs.php:23
+msgid "Home"
+msgstr ""
+
+#: ../lib/standardtheme.php:541
+msgid "No categories"
+msgstr ""
+
+#: ../lib/standardtheme.php:666
+msgid "About"
+msgstr ""
+
+#: ../lib/standardtheme.php:671
+msgid "All Posts by"
+msgstr ""
+
+#: ../lib/standardtheme.php:675
+msgid "Website"
+msgstr ""
+
+#: ../lib/standardtheme.php:681
+msgid "Twitter"
+msgstr ""
+
+#: ../lib/standardtheme.php:687
+msgid "Facebook"
+msgstr ""
+
+#: ../lib/standardtheme.php:714
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../lib/standardtheme.php:717
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../lib/standardtheme.php:737
+msgid "Powered by the"
+msgstr ""
+
+#: ../lib/standardtheme.php:743
+msgid "Standard Theme"
+msgstr ""
+
+#: ../lib/standardtheme.php:762
+#: ../lib/standardtheme.php:770
+#: ../lib/standardtheme.php:774
+#: ../lib/standardtheme.php:778
+#, php-format
+msgid "Archive - %s"
+msgstr ""
+
+#: ../lib/standardtheme.php:782
+msgid "Archive by Author"
+msgstr ""
+
+#: ../lib/standardtheme.php:786
+#, php-format
+msgid "Tag Archive - %s"
+msgstr ""
+
+#: ../lib/standardtheme.php:819
+msgid "Sidebar"
+msgstr ""
+
+#: ../lib/standardtheme.php:828
+msgid "Top Ad"
+msgstr ""
+
+#: ../lib/standardtheme.php:859
+msgid "Standard Theme - Ad 300x250 #1"
+msgstr ""
+
+#: ../lib/standardtheme.php:880
+msgid "Standard Theme - Ad 300x250 #2"
+msgstr ""
+
+#: ../lib/standardtheme.php:901
+msgid "Standard Theme - Ad 300x250 #3"
+msgstr ""
+
+#: ../lib/standardtheme.php:918
+msgid "Standard Theme - Personal Image"
+msgstr ""
+
+#: ../lib/standardtheme.php:940
+msgid "Standard Theme - Ad 468x60"
+msgstr ""
+
+#: ../lib/standardtheme.php:973
+#: ../lib/standardtheme.php:991
+msgid "Standard Theme - Ads 125x125"
+msgstr ""
+
+#: ../lib/standardtheme.php:985
+msgid "Number of ads (1-10)"
+msgstr ""
+
+#: ../lib/standardtheme.php:998
+msgid "Search"
+msgstr ""
+
+#: ../lib/standardtheme.php:1000
+msgid "Type Here."
+msgstr ""
+
+#: ../lib/standardtheme.php:1001
+msgid "Submit"
+msgstr ""
+
+#: ../lib/standardtheme.php:1006
+msgid "Standard Theme - Search"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:24
+msgid "Blog"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:25
+#: ../lib/wp-pagenavi.php:164
+msgid "&raquo;"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:26
+msgid "Navigation:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:31
+msgid "Archives for"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:32
+msgid "Search for"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:62
+msgid "Settings"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:70
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:93
+msgid "Yoast Breadcrumbs Configuration"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:98
+msgid "Separator between breadcrumbs:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:102
+msgid "Anchor text for the Homepage:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:106
+msgid "Anchor text for the Blog:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:110
+msgid "Prefix for the breadcrumb path:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:114
+msgid "Prefix for Archive breadcrumbs:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:118
+msgid "Prefix for Search Page breadcrumbs:"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:122
+msgid "Show category in post breadcrumbs? <small style=\"font-weight: normal;\">(Shows the category inbetween Home and the blogpost)</small>"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:126
+msgid "Show Parent Page for Blog posts?</label> <small style=\"font-weight: normal;\">(Adds another page inbetween Home and the blogpost)</small>"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:130
+msgid "Bold the last page in the breadcrumb?"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:134
+msgid "Nofollow the link to the home page?"
+msgstr ""
+
+#: ../lib/standard_yoast_breadcrumbs.php:139
+msgid "Save Settings"
+msgstr ""
+
+#: ../lib/wp-pagenavi.php:91
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../lib/wp-pagenavi.php:162
+msgid "&laquo; First"
+msgstr ""
+
+#: ../lib/wp-pagenavi.php:163
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../lib/wp-pagenavi.php:165
+msgid "&laquo;"
+msgstr ""
+
+#: ../lib/wp-pagenavi.php:166
+#: ../lib/wp-pagenavi.php:167
+msgid "..."
+msgstr ""
+
+#: ../lib/yoast_posts.php:20
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#: ../lib/yoast_posts.php:46
+msgid "This is a post from"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:5
+msgid "Rotate 125px Advertisements?"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:6
+msgid "Do you want to randomly rotate these advertisements in your sidebar?"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:9
+#: ../theme-options/author-box-settings_5.php:9
+#: ../theme-options/author-box-settings_5.php:19
+#: ../theme-options/author-box-settings_5.php:29
+#: ../theme-options/author-box-settings_5.php:39
+#: ../theme-options/author-box-settings_5.php:49
+#: ../theme-options/comment-options_6.php:9
+#: ../theme-options/framework-options_2.php:11
+#: ../theme-options/framework-options_2.php:19
+#: ../theme-options/framework-options_2.php:29
+#: ../theme-options/framework-options_2.php:39
+#: ../theme-options/framework-options_2.php:49
+#: ../theme-options/framework-options_2.php:59
+#: ../theme-options/general-settings_1.php:9
+#: ../theme-options/navigation-options_3.php:9
+#: ../theme-options/navigation-options_3.php:19
+#: ../theme-options/post-thumbnails_4.php:9
+#: ../theme-options/post-thumbnails_4.php:20
+msgid "No"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:11
+#: ../theme-options/author-box-settings_5.php:11
+#: ../theme-options/author-box-settings_5.php:21
+#: ../theme-options/author-box-settings_5.php:31
+#: ../theme-options/author-box-settings_5.php:41
+#: ../theme-options/author-box-settings_5.php:51
+#: ../theme-options/comment-options_6.php:11
+#: ../theme-options/framework-options_2.php:9
+#: ../theme-options/framework-options_2.php:21
+#: ../theme-options/framework-options_2.php:31
+#: ../theme-options/framework-options_2.php:41
+#: ../theme-options/framework-options_2.php:51
+#: ../theme-options/framework-options_2.php:61
+#: ../theme-options/general-settings_1.php:11
+#: ../theme-options/navigation-options_3.php:11
+#: ../theme-options/navigation-options_3.php:21
+#: ../theme-options/post-thumbnails_4.php:11
+#: ../theme-options/post-thumbnails_4.php:22
+msgid "Yes"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:15
+#: ../theme-options/ads-125x125_8.php:23
+#: ../theme-options/ads-125x125_8.php:30
+#: ../theme-options/ads-125x125_8.php:38
+#: ../theme-options/ads-125x125_8.php:45
+#: ../theme-options/ads-125x125_8.php:53
+#: ../theme-options/ads-125x125_8.php:60
+#: ../theme-options/ads-125x125_8.php:68
+#: ../theme-options/ads-125x125_8.php:75
+#: ../theme-options/ads-125x125_8.php:83
+#: ../theme-options/ads-125x125_8.php:90
+#: ../theme-options/ads-125x125_8.php:98
+#: ../theme-options/ads-125x125_8.php:105
+#: ../theme-options/ads-125x125_8.php:113
+#: ../theme-options/ads-125x125_8.php:120
+#: ../theme-options/ads-125x125_8.php:128
+#: ../theme-options/ads-125x125_8.php:135
+#: ../theme-options/ads-125x125_8.php:143
+#: ../theme-options/ads-125x125_8.php:150
+#: ../theme-options/ads-125x125_8.php:158
+#, php-format
+msgid "%spx Ad #%s - "
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:15
+#: ../theme-options/ads-125x125_8.php:30
+#: ../theme-options/ads-125x125_8.php:45
+#: ../theme-options/ads-125x125_8.php:60
+#: ../theme-options/ads-125x125_8.php:75
+#: ../theme-options/ads-125x125_8.php:90
+#: ../theme-options/ads-125x125_8.php:105
+#: ../theme-options/ads-125x125_8.php:120
+#: ../theme-options/ads-125x125_8.php:135
+#: ../theme-options/ads-125x125_8.php:150
+msgid "Image"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:16
+#: ../theme-options/ads-125x125_8.php:31
+#: ../theme-options/ads-125x125_8.php:46
+#: ../theme-options/ads-125x125_8.php:61
+#: ../theme-options/ads-125x125_8.php:76
+#: ../theme-options/ads-125x125_8.php:91
+#: ../theme-options/ads-125x125_8.php:106
+#: ../theme-options/ads-125x125_8.php:121
+#: ../theme-options/ads-125x125_8.php:136
+#: ../theme-options/ads-125x125_8.php:151
+#: ../theme-options/ads-300x250_9.php:6
+#: ../theme-options/ads-300x250_9.php:27
+#: ../theme-options/ads-300x250_9.php:48
+msgid "Upload the image for this advertisement."
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:23
+#: ../theme-options/ads-125x125_8.php:38
+#: ../theme-options/ads-125x125_8.php:53
+#: ../theme-options/ads-125x125_8.php:68
+#: ../theme-options/ads-125x125_8.php:83
+#: ../theme-options/ads-125x125_8.php:98
+#: ../theme-options/ads-125x125_8.php:113
+#: ../theme-options/ads-125x125_8.php:128
+#: ../theme-options/ads-125x125_8.php:143
+#: ../theme-options/ads-125x125_8.php:158
+msgid "Image Destination"
+msgstr ""
+
+#: ../theme-options/ads-125x125_8.php:24
+#: ../theme-options/ads-125x125_8.php:39
+#: ../theme-options/ads-125x125_8.php:54
+#: ../theme-options/ads-125x125_8.php:69
+#: ../theme-options/ads-125x125_8.php:84
+#: ../theme-options/ads-125x125_8.php:99
+#: ../theme-options/ads-125x125_8.php:114
+#: ../theme-options/ads-125x125_8.php:129
+#: ../theme-options/ads-125x125_8.php:144
+#: ../theme-options/ads-125x125_8.php:159
+#: ../theme-options/ads-300x250_9.php:20
+#: ../theme-options/ads-300x250_9.php:41
+#: ../theme-options/ads-300x250_9.php:62
+msgid "Specify the destination URL for this advertisement."
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:5
+msgid "Advertisement Image #1"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:13
+msgid "Adsense Code #1"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:14
+#: ../theme-options/ads-300x250_9.php:35
+#: ../theme-options/ads-300x250_9.php:56
+msgid "Enter the adsense code for this advertisement."
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:19
+msgid "Advertisement Destination #1"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:26
+msgid "Advertisement Image #2"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:34
+msgid "Adsense Code #2"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:40
+msgid "Advertisement Destination #2"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:47
+msgid "Advertisement Image #3"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:55
+msgid "Adsense Code #3"
+msgstr ""
+
+#: ../theme-options/ads-300x250_9.php:61
+msgid "Advertisement Destination #3"
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:5
+msgid "Advertisement Image"
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:6
+msgid "Upload the image for the 468x60 advertisement."
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:13
+msgid "Adsense Code"
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:14
+msgid "Enter the adsense code for your 468x60 advertisement."
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:19
+msgid "Advertisement Destination"
+msgstr ""
+
+#: ../theme-options/ads-468x60_10.php:20
+msgid "Specify the destination URL for your advertisement."
+msgstr ""
+
+#: ../theme-options/affiliate-code_12.php:5
+msgid "Make some cash!"
+msgstr ""
+
+#: ../theme-options/affiliate-code_12.php:6
+msgid "Enter your affiliate link URL here (and it will be linked in the footer)."
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:5
+msgid "RSS Feed"
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:6
+msgid "Enter the address of your blog's RSS feed (such as FeedBurner)."
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:11
+msgid "FeedBurner Email"
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:12
+msgid "Enter the address of your FeedBurner email feed."
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:17
+msgid "Google Tracking Code"
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:18
+msgid "Paste your Google Tracking code here. Note that, this will be added to the <em>header</em> of your blog."
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:23
+msgid "Other Tracking Code"
+msgstr ""
+
+#: ../theme-options/analytics-and-RSS_11.php:24
+msgid "Paste your other analytics tracking code here. Note that, this will be added to the <em>footer</em> of your blog."
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:5
+msgid "Display Author Box"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:6
+msgid "Do you want to display an author biography box at the bottom of each post?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:15
+msgid "Display Website Link?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:16
+msgid "Do you want to provide a link to the author's website?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:25
+msgid "Display Twitter Link?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:26
+msgid "Do you want to provide a link to the author's Twitter account?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:35
+msgid "Display Facebook Link?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:36
+msgid "Do you want to provide a link to the author's Facebook page?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:45
+msgid "Display Share By Link?"
+msgstr ""
+
+#: ../theme-options/author-box-settings_5.php:46
+msgid "Do you want to provide a link to share a post via email?"
+msgstr ""
+
+#: ../theme-options/comment-options_6.php:5
+msgid "Display Allowed Comments Markup?"
+msgstr ""
+
+#: ../theme-options/comment-options_6.php:6
+msgid "Do you want to display the allowed HTML tags for your comments?"
+msgstr ""
+
+#: ../theme-options/comment-options_6.php:15
+msgid "Default Gravatar Image"
+msgstr ""
+
+#: ../theme-options/comment-options_6.php:16
+msgid "Upload an image that you wish to display as your default gravatar image. "
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:5
+msgid "Enable CSS3 Effects?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:6
+msgid "Enable CSS3-based visual effects on the default theme?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:15
+msgid "Place Navigation Below The Header?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:16
+msgid "Display the navigation bar between the header and the content?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:25
+msgid "Use Large Social Icons?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:26
+msgid "Do you want to use larger images of social icons?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:35
+msgid "Place The Sidebar on the Left?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:36
+msgid "Move the sidebar to the left of the content?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:45
+msgid "Include WordPress 3.0 Background Support?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:46
+msgid "Would you like to enable WordPress 3.0 background color and image support?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:55
+msgid "Hide Navigatation Menu in the Footer?"
+msgstr ""
+
+#: ../theme-options/framework-options_2.php:56
+msgid "Would you like to hide the footer navigation menu?"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:5
+msgid "Display blog title in place of custom logo?"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:6
+msgid "Would you rather display the title of your blog instead of a custom logo?"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:15
+msgid "Custom Logo"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:16
+msgid "Upload a logo for your theme."
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:23
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:24
+msgid "Upload a 16px x 16px PNG/JPG image."
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:31
+msgid "Personal Image"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:32
+msgid "Upload a personal image (300px wide)."
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:39
+msgid "Personal Image Link"
+msgstr ""
+
+#: ../theme-options/general-settings_1.php:40
+msgid "The URL to which your personal image links."
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:5
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:6
+msgid "Do you want to display SEO-friendly breadcrumbs on each of your posts?"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:15
+msgid "Use WordPress 3.0 Custom Menu?"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:16
+msgid "Use WordPress 3.0 menus rather than Standard Theme's menus?"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:25
+msgid "Exclude Pages From The Navigation Menus"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:26
+msgid "Select the pages to exclude from your navigation menus. Excluding a top-level page excludes child pages.  <br><br><small>(Command/Control + Select to choose multiple)</small>"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:31
+msgid "Exclude Categories in Navigation Menus"
+msgstr ""
+
+#: ../theme-options/navigation-options_3.php:32
+msgid "Select the categories to exclude from your navigation menus. Excluding a top-level page excludes child categories. <br><br><small>(Command/Control + Select to choose multiple)</small>"
+msgstr ""
+
+#: ../theme-options/post-thumbnails_4.php:5
+msgid "Post Thumbnails on your Blog"
+msgstr ""
+
+#: ../theme-options/post-thumbnails_4.php:6
+msgid "Do you want to display post thumbnails on your blog?"
+msgstr ""
+
+#: ../theme-options/post-thumbnails_4.php:16
+msgid "Post Thumbnails in Single View"
+msgstr ""
+
+#: ../theme-options/post-thumbnails_4.php:17
+msgid "Do you want to display post thumbnails on single posts?"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:6
+msgid "Do you want to display the Twitter Button on your posts?"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:16
+msgid "Do you want to display the Facebook Share button on your posts?"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:25
+msgid "AddThis"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:26
+msgid "Do you you want to display the AddThis Global Sharer button on your posts?"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:36
+msgid "http://twitter.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:42
+msgid "http://facebook.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:47
+msgid "LinkedIn"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:48
+msgid "http://linkedin.com/in/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:53
+msgid "Posterous"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:54
+msgid "The full URL (or custom URL) to your Posterous account."
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:59
+msgid "Vimeo"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:60
+msgid "http://vimeo.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:65
+msgid "YouTube"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:66
+msgid "http://youtube.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:71
+msgid "Digg"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:72
+msgid "http://digg.com/users/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:77
+msgid "Flickr"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:78
+msgid "http://flickr.com/photos/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:83
+msgid "FriendFeed"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:84
+msgid "http://friendfeed.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:89
+msgid "LastFM"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:90
+msgid "http://last.fm/user/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:95
+msgid "MySpace"
+msgstr ""
+
+#: ../theme-options/sharing-options_7.php:96
+msgid "http://myspace.com/<strong>username</strong>"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:5
+msgid "Update Your Theme"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:24
+msgid "Your host doesn't support the ability to check theme version.  Please follow the <a href=\"http://8bit.io/blog/standard/\">Standard Theme Blog</a> for updates."
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:37
+msgid "Your site is powered by Standard Theme <strong>"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:37
+#: ../theme-options/theme-updates_13.php:41
+msgid "</strong>. "
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:40
+msgid "The most recent version is <strong>"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:42
+msgid "Grab your update <a href=\"http://standardtheme.com/forums\">"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:43
+msgid "in the forums!"
+msgstr ""
+
+#: ../theme-options/theme-updates_13.php:45
+msgid "You're up to date!"
+msgstr ""
+

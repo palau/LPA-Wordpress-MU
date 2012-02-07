@@ -1,0 +1,64 @@
+#bnc fieldset {
+	border: 1px none #ddd;
+	background: #fff;
+
+}
+
+/* @group Tooltips */
+
+#bnc-form #wptouch-tooltip:before {
+	content: none;
+	position: absolute;
+	left: -26px;
+	width: 26px;
+	height: 30px;
+}
+
+#bnc-form #wptouch-tooltip-left:before {
+	content: none;
+	position: absolute;
+	width: 26px;
+	height: 30px;
+	right: -26px;
+	top: 2px;
+}
+
+#bnc-form #wptouch-tooltip-center:before {
+	content: none;
+	position: absolute;
+	height: 26px;
+	left: 45%;
+	bottom: -26px;
+	width: 30px;
+}
+
+/* @end */
+
+/* @group Tabs */
+
+*+html #bnc .left-area ul li a.active {
+	background-color: transparent !important;
+	font-weight: bold;
+}
+
+
+
+/* @end */
+
+/* @group Icon List */
+
+*+html #bnc #wptouch-icon-list ul li {
+	display: block;
+	float: left;
+	margin-right: 3px;
+}
+
+*+html #bnc #manage-icon-set-area #manage-icon-ajax li {
+	display: block;
+	float: left;
+	margin-right: 3px;
+}
+
+
+
+/* @end */

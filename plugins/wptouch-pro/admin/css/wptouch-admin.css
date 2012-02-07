@@ -1,0 +1,2083 @@
+/* WPtouch Pro Admin CSS */
+
+/* @group CSS RESET */
+
+#bnc div, #bnc span, #bnc applet, #bnc object, #bnc iframe, #bnc h1, #bnc h3, #bnc h4, #bnc h5, #bnc h6, #bnc blockquote, #bnc pre, #bnc a, #bnc abbr, #bnc acronym, #bnc address, #bnc big, #bnc cite, #bnc code, #bnc del, #bnc dfn, #bnc em, #bnc font, #bnc img, #bnc ins, #bnc kbd, #bnc q, #bnc s, #bnc samp, #bnc strike, #bnc strong, #bnc sub, #bnc sup, #bnc tt, #bnc var, #bnc b, #bnc u, #bnc i, #bnc center, #bnc dl, #bnc dt, #bnc dd, #bnc ol, #bnc ul, #bnc li, #bnc fieldset, #bnc form, #bnc label, #bnc legend, #bnc table, #bnc caption, #bnc tbody, #bnc tfoot, #bnc thead, #bnc tr, #bnc th, #bnc td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+#bnc ol, #bnc ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bnc :focus {
+	outline: 0;
+}
+
+#bnc ins {
+	text-decoration: none;
+}
+
+#bnc del {
+	text-decoration: line-through;
+}
+
+#bnc table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+/* @group Globals */
+
+#bnc {
+	width: 98%;
+	font-size: 12px;
+}
+
+#bnc a {
+	text-decoration: none;
+}
+
+#bnc sup {
+	vertical-align: super;
+	font-size: 30%;
+	color: #777;
+	position: relative;
+	bottom: 5px;
+	margin-right: -3px;
+}
+
+#bnc .copytext {
+	margin: 0;
+	padding: 0;
+}
+
+#bnc .clearer {
+	clear: both;
+}
+
+#bnc .spacer {
+	height: 20px;
+	display: block;
+}
+
+#bnc .poof {
+	background: transparent url(../images/poof.png) no-repeat 0 0;
+	cursor: pointer;
+	height: 32px;
+	position: absolute;
+	width: 32px;
+	display: none;
+}
+
+#bnc #wptouch-admin-top h2 {
+	padding-left: 50px;
+	padding-bottom: 15px;
+	margin-bottom: 8px;
+}
+
+#bnc #wptouch-admin-top h2 span {
+	font-size: 14px;
+	color: #70848a;
+	position: relative;
+	bottom: 2px;
+}
+
+#bnc h5 {
+	font: bold 15px Georgia, "Times New Roman", Times, serif;
+	color: #5f7176;
+	text-shadow: #fff 0 1px 0;
+}
+
+#bnc h6 {
+	color: #666;
+	text-shadow: #fff 0 1px 0;
+	font: bold 11px Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+}
+
+.status-unl {
+	color: #9cb2c1;
+}
+
+#bnc p.api-warning {
+	border: 1px solid #fbbf8c;
+	background: #fcf7e3 url(../images/icons/info.png) no-repeat 10px 5px;
+	color: #5f7176;
+	font-size: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	line-height: 14px;
+	margin-right: 0;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#bnc-form .saved {
+	float: right;
+	font-weight: bold;
+	color: darkgreen;
+	background: url(../images/icons/check.png) no-repeat 0 0;
+	padding-left: 23px;
+}
+
+#bnc-form .reset {
+	float: right;
+	font-weight: bold;
+	color: gray;
+	background: url(../images/icons/flag.png) no-repeat 0 0;
+	padding-left: 23px;
+}
+
+#bnc-form #saving-ajax {
+	position: relative;
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	color: #777;
+	margin-right: 8px;
+	display: none;
+}
+
+#bnc-form #saving-ajax img {
+	position: relative;
+	top: 4px;
+}
+
+p#bnc-submit.submit {
+	padding: 0;
+	float: left;
+	margin-right: 10px;
+}
+
+p#bnc-submit-reset.submit {
+	padding: 0;
+}
+
+/* @group Tooltips */
+
+/* @group Toolip Link Question Marks */
+
+#bnc-form a.wptouch-tooltip, #bnc-form a.wptouch-tooltip-left {
+	padding: 2px 6px;
+	font-size: 10px;
+	text-decoration: none;
+	background: url(../images/help-icon.png) no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	z-index: 1;
+}
+
+#bnc-form a.wptouch-tooltip-center {
+	font-size: 10px;
+	text-decoration: none;
+	background: url(../images/help-icon.png) no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+	z-index: 1;
+	text-align: center;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	padding: 0 0 0 1px;
+}
+
+#bnc-form a.wptouch-tooltip:hover, #bnc-form a.wptouch-tooltip-left:hover {
+	border-color: #d54e21;
+}
+
+/* @end */
+
+#bnc-form #wptouch-tooltip {
+	display: none;
+	width: 20%;
+	height: auto;
+	border: 4px solid #1d507d;
+	font-size: 11px;
+	text-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: #555 0px 1px 6px;
+	-moz-box-shadow: #555 0px 1px 6px;
+	box-shadow: #555 0px 1px 6px;
+	padding: 8px;
+	background-color: #f2f4f4;
+	z-index: 99;
+}
+
+#bnc-form #wptouch-tooltip:before {
+	content: url(../images/tooltip-bg.png);
+	position: absolute;
+	width: 21px;
+	height: 19px;
+	bottom: -19px;
+	left: 2px;
+}
+
+#bnc-form #wptouch-tooltip-left {
+	display: none;
+	width: 20%;
+	height: auto;
+	border: 4px solid #1d507d;
+	font-size: 11px;
+	text-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: #555 0px 1px 6px;
+	-moz-box-shadow: #555 0px 1px 6px;
+	box-shadow: #555 0px 1px 6px;
+	padding: 8px;
+	background-color: #f2f4f4;
+	z-index: 99;
+}
+
+#bnc-form #wptouch-tooltip-left:after {
+	content: url(../images/tooltip-left-bg.png);
+	position: absolute;
+	width: 21px;
+	height: 19px;
+	right: 2px;
+	bottom: -19px;
+}
+
+#bnc-form #wptouch-tooltip-center {
+	display: none;
+	width: 34%;
+	height: auto;
+	border: 4px solid #1d507d;
+	font-size: 11px;
+	text-shadow: #eee 0 1px 0;
+	-webkit-box-shadow: #555 0px 1px 6px;
+	-moz-box-shadow: #555 0px 1px 6px;
+	box-shadow: #555 0px 1px 6px;
+	padding: 6px;
+	background-color: #f0f6fb;
+	z-index: 99;
+}
+
+#bnc-form #wptouch-tooltip-center:before {
+	content: url(../images/tooltip-middle-bg.png);
+	position: absolute;
+	height: 18px;
+	bottom: -19px;
+	width: 29px;
+	left: 46.5%;
+}
+
+/* @end */
+
+/* @group Forms */
+
+#bnc input.checkbox {
+	vertical-align: middle;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+
+#bnc input.text, #bnc #wptouch-set-input-area input {
+	border: 1px solid #d3d3d3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+	background: -moz-linear-gradient(top, #f9f9f9, #fff);
+	width: 30%;
+	margin-right: 5px;
+}
+
+#bnc input.text-array {
+	border: 1px solid #d3d3d3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+	background: -moz-linear-gradient(top, #f9f9f9, #fff);
+	margin-right: 5px;
+	width: 350px;
+}
+
+#bnc textarea.textarea {
+	border: 1px solid #d3d3d3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff));
+	background: -moz-linear-gradient(top, #f9f9f9, #fff);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: auto;
+	width: 100%;
+}
+
+#bnc select.list {
+	width: 30%;
+	margin-right: 5px;
+}
+
+#bnc label {
+	margin-right: 2px;
+}
+
+#bnc a.ajax-button {
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+	background: -moz-linear-gradient(top, #fff, #ccc);
+	border: 1px solid #ccc;
+	padding: 1px 7px 3px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	font-size: 11px;
+}
+
+#bnc a.ajax-button:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+	background: -moz-linear-gradient(top, #ccc, #fff);
+}
+
+#bnc a.ajax-button:hover {
+	border: 1px solid #aaa;
+}
+
+#bnc .button {
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+	background: -moz-linear-gradient(top, #fff, #ccc);
+	border-color: #ccc;
+}
+
+#bnc .button:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+	background: -moz-linear-gradient(top, #ccc, #fff);
+}
+
+#bnc .button:hover {
+	border: 1px solid #aaa;
+	color: #5f7176;
+}
+
+/* @end */
+
+/* @group Text Colors */
+
+.blue-text {
+	color: #5281a7;
+}
+
+.green-text {
+	color: green;
+}
+
+.red-text {
+	color: darkred;
+}
+
+/* @end */
+
+/* @group Shadows & Rounded Corners */
+
+#bnc .round-24 {
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+}
+
+#bnc .round-12 {
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#bnc .round-8 {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#bnc .round-6 {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#bnc .round-4 {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#bnc .round-2 {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#bnc .round-top-6 {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#bnc .box-shadow {
+	-webkit-box-shadow: #CCC 0px 0px 3px;
+	-moz-box-shadow: #CCC 0px 0px 3px;
+	box-shadow: #CCC 0px 0px 3px;
+}
+
+#bnc .round-24, #bnc .round-12, #bnc .round-8, #bnc .round-6, #bnc .round-4, #bnc .round-2, #bnc .round-top-6 {
+	webkit-background-clip: padding-box;
+}
+
+/* @end */
+
+/* @group Ajax Messages */
+
+#bnc .wptouch-ajax-results {
+	position: absolute;
+	right: 0;
+	background: url(../images/ajax-loader.gif) no-repeat 5px 6px;
+	height: 16px;
+	text-align: right;
+	text-shadow: #fff 0 1px 0;
+	padding: 5px 5px 9px 28px;
+	font-size: 13px;
+	top: -5px;
+}
+
+#bnc .wptouch-ajax-results#ajax-saved {
+	background-image: url(../images/icons/check.png);
+}
+
+#bnc .wptouch-ajax-results#ajax-fail {
+	background-image: url(../images/icons/warning.png);
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Top Navigation */
+
+#bnc ul#wptouch-top-menu {
+	position: relative;
+	margin-left: 6px;
+	text-shadow: #fff 0 1px 0;
+	z-index: 1;
+	margin-bottom: 15px;
+}
+
+#bnc ul#wptouch-top-menu li {
+	display: inline;
+}
+
+#bnc ul#wptouch-top-menu li a {
+	display: inline;
+	margin-right: 15px;
+	padding: 5px 7px 18px;
+	margin-bottom: -1px;
+}
+
+#bnc ul#wptouch-top-menu li a.active {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Right Content Area */
+
+#bnc .pane-content {
+	margin-bottom: -10px;
+}
+
+#bnc #wptouch-tabbed-area {
+	min-height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+#bnc #wptouch-tabbed-area .right-area {
+	padding-top: 8px;
+	background-color: #fff;
+	margin-left: 18%;
+	border: 1px solid #d3d3d3;
+	padding-left: 15px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	position: relative;
+	min-height: 300px;
+}
+
+#bnc .wptouch-setting {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#bnc .wptouch-setting.type-spacer {
+	padding: 0px;
+}
+
+#bnc fieldset {
+	border: 1px solid #ddd;
+	background: #f6f8f8;
+	width: 95.5%;
+	padding: 10px;
+}
+
+/* @end */
+
+/* @group Tabs */
+
+#bnc #wptouch-tabbed-area .left-area {
+	float: left;
+	padding: 0;
+	margin: 1px 0 0;
+	width: 18%;
+	text-shadow: #fff 0 1px 0px;
+}
+
+#bnc .left-area ul li {
+	border-bottom: 1px solid #e0e2e2;
+}
+
+#bnc .left-area ul li a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+}
+
+#bnc .left-area ul li a.active {
+	color: #d54e21;
+	position: relative;
+	z-index: 2;
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
+	border-bottom: 1px solid #d3d3d3;
+	padding-bottom: 10px;
+	background-color: #fff;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-left: 1px solid #d3d3d3;
+	margin: -1px -1px -1px -3px;
+	padding-left: 10px;
+}
+
+/* @group General */
+
+/* @group WPtouchboard */
+
+#bnc #setting_touchboard fieldset {
+	background-color: transparent;
+	border-style: none;
+	width: 100%;
+	margin-right: -2px;
+}
+
+#bnc #upgrade-available-icon {
+	background: url(../images/update_icon.png) no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top: -8px;
+	left: -8px;
+}
+
+#bnc .box-holder {
+	border: 1px solid #dfdfdf;
+	padding: 0;
+	font-size: 11px;
+	background-color: #fff;
+	margin-bottom: 3%;
+	width: 47%;
+	margin-left: 0;
+	margin-right: 2%;
+	position: relative;
+	float: left;
+}
+
+#bnc .box-holder h3 {
+	text-shadow: #fff 0 1px 0;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-bottom: 1px solid #e1e1e1;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;	
+}
+
+#bnc .box-holder .sub {
+	color: #777;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	margin: 10px 5px 10px 10px;
+}
+
+#bnc .box-holder ul {
+	margin: 10px;
+}
+
+#bnc .box-holder li {
+	line-height: 175%;
+}
+
+#bnc #blog-news-box li a, #bnc #support-threads-box li a {
+	white-space: nowrap;
+	text-overflow: ellipsIs;
+	-o-text-overflow: ellipsis;
+	width: 99%;
+	overflow: hidden;
+	display: block;
+}
+
+/* @group Right Now Widget */
+
+#bnc .box-holder table {
+	background-color: #f1f1f1;
+	width: 100%;
+	margin-bottom: 10px;
+	text-shadow: #fff 0 1px 0px;
+}
+
+#bnc .box-holder table a {
+	color: #d54e21;
+}
+
+#bnc .box-holder table a:hover {
+	color: #264761;
+}
+
+#bnc .box-holder tr {
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#bnc .box-holder tr:first-child {
+	border-top: 1px solid #e1e1e1;
+}
+
+#bnc .box-holder #board-warnings {
+	background-color: #feebc9;
+	font-weight: bold;
+}
+
+#bnc .box-holder td.box-table-text {
+	height: 22px;
+}
+
+#bnc .box-holder td.box-table-number {
+	font: 17px Georgia, "Times New Roman", Times, serif;
+	color: #555;
+	text-align: right;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#bnc .box-holder td.box-table-text {
+	text-transform: capitalize;
+	font-size: 12px;
+	color: #555;
+	padding-left: 5%;
+	width: 86%;
+}
+
+#bnc #right-now-box li span {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group WPtouch News, Support Threads */
+
+#bnc .loading {
+	background: url(../images/ajax-loader-big.gif) no-repeat center center;
+}
+
+#bnc #blog-news-box ul li, #bnc #support-threads-box ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e1e1e1;
+	line-height: 130%;
+}
+
+#bnc #blog-news-box ul li, #bnc #support-threads-box ul li a {
+	margin-right: 2px;
+}
+
+#support-threads-box-ajax li a {
+	display: block;
+}
+
+#bnc #blog-news-box ul li, #bnc #support-threads-box em {
+	color: #666;
+}
+
+#bnc #blog-news-box ul li:first-child, #bnc #support-threads-box ul li:first-child {
+	border-top: 1px solid #e1e1e1;
+}
+
+#bnc #blog-news-box ul li:last-child, #bnc #support-threads-box ul li:last-child {
+	border-bottom-style: none;
+}
+
+/* @end */
+
+/* @group Support QuickPress */
+
+#bnc #support-form-box .text {
+	width: 50%;
+	margin-left: 10px;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+#bnc #support-form-box .textarea {
+	margin-left: 10px;
+	width: 94.5%;
+	margin-bottom: 10px;
+	height: 95px;
+}
+
+#bnc #support-form-box a.button {
+	padding: 3px 8px;
+	border: 1px solid #b1b1b1;
+	margin-left: 10px;
+}
+
+/* @end */
+
+/* @group Unlicensed */
+
+#bnc #unlicensed-board {
+	font-weight: bold;
+	border: 1px solid #fbbf8c;
+	background: #fcf7e3 url(../images/icons/lightbulb_on.png) no-repeat 10px 8px;
+	color: #555;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	line-height: 14px;
+	margin-right: 3.5%;
+}
+
+#bnc #unlicensed-board.partial {
+	border: 1px solid lightblue;
+	background: #d1f6fb url(../images/icons/info.png) no-repeat 10px 9px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Advertising */
+
+#bnc #setting-advertising .wptouch-setting label {
+	margin-right: 1%;
+	display: inline-block;
+	text-align: right;
+}
+
+/* @end */
+
+/* @group Tools */
+
+#bnc #system-info table {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#bnc #system-info td.desc {
+	width: 25%;
+	color: #5f7176;
+	font-weight: bold;
+}
+
+#bnc #system-info td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+#bnc #system-info tr {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+/* @end */
+
+/* @group Plugin Compatibility */
+
+#bnc .info-button {
+	background: url(../images/icons/chain.png);
+}
+
+#bnc .dismiss-button {
+	background: url(../images/icons/clean.png);
+}
+
+#bnc .info-button, #bnc .dismiss-button {
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#bnc p.no-warnings {
+	font-weight: bold;
+	color: darkgreen;
+	background: url(../images/icons/check.png) no-repeat 0 1px;
+	padding-left: 24px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#bnc a.regenerate-plugin-list {
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));
+	background: -moz-linear-gradient(top, #fff, #e6e6e6);
+	margin-top: 10px;
+	border: 1px solid #b1b1b1;
+	padding: 6px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: #FFF 0 1px 0;
+	width: auto;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#bnc a.regenerate-plugin-list:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#fff));
+	background: -moz-linear-gradient(top, #e6e6e6, #fff);
+}
+
+#bnc .compat-box {
+	height: 200px;
+	overflow: auto;
+	width: auto;
+}
+
+/* @group Table */
+
+#bnc .section-plugin-compatibility label {
+	text-transform: capitalize;
+}
+
+#bnc .type-plugin-compat table {
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	background-color: #e0eef1;
+}
+
+#bnc .type-plugin-compat table th {
+	font: italic bold 14px Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+	padding-bottom: 10px;
+	color: #666;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+#bnc .type-plugin-compat table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 16px;
+	color: #555;
+	font-size: 11px;
+}
+
+#bnc .type-plugin-compat table td.warning-item-desc {
+	width: 55%;
+	padding-right: 3%;
+}
+
+#bnc .type-plugin-compat table tr {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+#bnc .type-plugin-compat table tr:nth-child(even) {
+	background-color: #fff;
+}
+
+#bnc .type-plugin-compat table td.plugin-name {
+	width: 30%;
+	font-weight: bold;
+	padding-left: 5px;
+	font-size: 12px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Backup/Import */
+
+#bnc .type-restore textarea, #bnc .type-backup textarea {
+	color: #798e98;
+	font-size: 11px;
+	overflow: auto;
+}
+
+#bnc a#copy-text-button {
+	color: #d54e21;
+	padding: 5px 9px 6px;
+	font-weight: bold;
+	text-shadow: #fff 0 1px 1px;
+}
+
+#bnc .type-restore .warning {
+	font-weight: bold;
+	border: 1px solid #fbbf8c;
+	background: #fcf7e3 url(../images/icons/warning.png) no-repeat 10px 6px;
+	color: #555;
+	font-size: 11px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 35px;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Theme Browser */
+
+#bnc .section-installed-themes fieldset {
+	width: 97%;
+	background: #f6f8f8 url(../images/palette_brush_big.png) no-repeat center center;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#bnc .section-installed-themes legend {
+	display: none;
+}
+
+#bnc .wptouch-theme-box {
+	border: 1px solid #e3e3e3;
+	text-shadow: #fff 0 1px 0;
+	background-color: #fff;
+	width: 47%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin: 1px 1.4% 3% 1%;
+}
+
+#bnc .wptouch-theme-author {
+	margin-top: -5px;
+	font-size: 11px;
+}
+
+#bnc .wptouch-theme-left-wrap {
+	float: left;
+	background-color: #f1f1f1;
+	padding: 5px;
+	border: 1px solid #ccd8da;
+	margin-left: 13px;
+	text-align: center;
+}
+
+#bnc .wptouch-theme-left-wrap h6 {
+	margin-bottom: 0;
+	margin-top: -1px;
+}
+
+#bnc .wptouch-theme-left-wrap img {
+	width: 80px;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc .wptouch-theme-right-wrap {
+	margin-left: 120px;
+}
+
+#bnc .wptouch-theme-right-wrap p {
+	font-size: 11px;
+	margin-right: 15px;
+}
+
+#bnc .wptouch-theme-box.active {
+	background-color: #f3fce9;
+	border-color: #a6d7aa;
+	position: relative;
+}
+
+#bnc .wptouch-right-align {
+	text-shadow: #fff 0 1px 0;
+	padding: 3px 3px 4px 0;
+	font-size: 12px;
+	position: relative;
+	text-align: right;
+	border-bottom: 1px solid #e1e1e1;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-bottom: 15px;
+}
+
+#bnc .wptouch-right-align.active-theme {
+	background-image: url(../images/green-grad.png);
+}
+
+#bnc .wptouch-right-align input {
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+}
+
+#bnc .wptouch-right-align .wptouch-tooltip {
+	position: absolute;
+	top: 3px;
+	background-position: 11px 3px;
+}
+
+#bnc .wptouch-theme-box .activate-theme:hover, #bnc .wptouch-theme-box .theme-settings:hover {
+	color: green;
+	border-color: green;
+}
+
+#bnc .wptouch-theme-box .copy-theme:hover {
+	color: darkorange;
+	border-color: darkorange;
+}
+
+#bnc .wptouch-theme-box .delete-theme:hover {
+	border-color: red;
+	color: red;
+}
+
+#bnc .wptouch-theme-box p.update-available {
+	font-size: 11px;
+	position: absolute;
+	top: -10px;
+	right: 5px;
+	padding-left: 20px;
+	background: url(../images/update_icon.png) no-repeat left center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: green;
+}
+
+#bnc #active-triangle {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	z-index: 1;
+	height: auto;
+	width: auto;
+}
+
+/* @group Custom Themes */
+
+#bnc #no-custom-themes {
+	text-align: center;
+	background: url(../images/no_custom_themes.png) no-repeat center 15%;
+	padding-top: 15%;
+	min-height: 160px;
+}
+
+#bnc #no-custom-themes p {
+	color: #999;
+	font-size: 11px;
+	margin: 0;
+	text-shadow: #fff 0 1px 0;
+}
+
+#bnc #no-custom-themes p:first-child {
+	font: italic bold 14px Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 5px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Classic Theme */
+
+/* @group Style/Appearance */
+
+#bnc a#color-picker {
+	padding: 5px 8px 6px;
+	font-weight: bold;
+	text-shadow: #fff 0 1px 0;
+	position: relative;
+	top: 5px;
+}
+
+#bnc input#post_thumbnails_new_image_size.text {
+	width: 5%;
+}
+
+/* @end */
+
+/* @group User Agent Table */
+
+#bnc .section-devices fieldset {
+	background-color: #fff;
+}
+
+#bnc .section-devices table {
+	width: 100%;
+	background-color: #f5fefe;
+}
+
+#bnc .section-devices table a {
+	text-decoration: underline;
+}
+
+#bnc .section-devices th {
+	font: italic bold 14px Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+	padding-bottom: 10px;
+	color: #666;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+#bnc .section-devices td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 16px;
+	color: #555;
+	font-size: 11px;
+}
+
+#bnc .section-devices tr {
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #ebf5f7;
+}
+
+#bnc .section-devices table tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+#bnc .section-devices table td.device-class-name {
+	width: 30%;
+	font-weight: bold;
+	padding-left: 5px;
+	font-size: 12px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Menu + Icons  */
+
+/* @group Menu + Icon Setup */
+
+/* @group Left Side */
+
+#bnc #wptouch-icon-packs {
+	margin-bottom: 20px;
+	float: left;
+	width: 45%;
+	border: 1px solid #ddd;
+}
+
+#bnc #wptouch-icon-area #icon-select {
+	background: #f0f0f0;
+	padding: 10px;
+	text-align: right;
+	margin: 1px;
+	font-size: 11px;
+}
+
+#bnc #wptouch-icon-area #icon-select select {
+	width: 40%;
+}
+
+#bnc #wptouch-icon-area #icon-help-message {
+	text-align: center;
+	color: #888;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 150%;
+	font-size: 11px;
+	background-color: #fdfae8;
+	padding: 7px;
+	text-shadow: #fff 0 1px 0;
+}
+
+#bnc #wptouch-icon-list ul {
+	position: relative;
+	left: 3px;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#bnc #wptouch-icon-list ul li {
+	font-size: 8pt;
+	background: #f5fbfb url(../images/placeholder.jpg) no-repeat center 10px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 1%;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: 23.7%;
+}
+
+#bnc #wptouch-icon-list ul li.dark {
+	background-image: none;
+	background-color: #8697ab;
+}
+
+#bnc #wptouch-icon-list ul li.dark .icon-name {
+	color: #fff;
+	text-shadow: #374956 0 -1px 0;
+}
+
+#bnc #wptouch-icon-list ul li.dark .icon-size {
+	color: #adc3d5;
+}
+
+#bnc #wptouch-icon-list ul li img {
+	-ms-interpolation-mode: bicubic;
+	width: 32px;
+	height: 32px;
+}
+
+#bnc #wptouch-icon-list .icon-image {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	margin-bottom: 5px;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc #wptouch-icon-list ul li span.icon-name {
+	font-weight: bold;
+	margin-top: 8px;
+	color: #666;
+	text-shadow: #fff 0 -1px 0;
+	font-size: 9px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* @end */
+
+/* @group Right Side */
+
+#bnc #setting_icon-pool fieldset, #bnc #setting-upload_icons_and_sets fieldset {
+	background-color: #fff;
+	border-style: none;
+}
+
+/* @group Menu meta */
+
+#bnc .menu-meta h6 {
+	float: left;
+}
+
+#bnc .menu-meta .menu-actions {
+	float: right;
+	font: 11px "Lucida Grande", "Lucida sans Unicode", Arial, sans-serif;
+}
+
+/* @end */
+
+#bnc #wptouch-icon-area .title {
+	display: inline-block;
+	margin-top: 2.5%;
+	margin-left: 2%;
+	font-size: 11px;
+	text-shadow: #fff 0 1px 1px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 5px;
+	text-overflow: ellipsis;
+	width: 70%;
+}
+
+#bnc #wptouch-icon-menu li.has_children a.expand {
+	background: url(../images/page-arrows.png) no-repeat 0 4px;
+	padding-left: 14px;
+}
+
+#bnc #wptouch-icon-menu li.has_children.open a.expand {
+	background: url(../images/page-arrows.png) no-repeat 0 -9px;
+}
+
+#bnc #wptouch-icon-area .open {
+	background-color: #fdfae8;
+}
+
+#bnc #wptouch-icon-menu {
+	float: left;
+	margin-top: -38px;
+	margin-left: 5%;
+	width: 48%;
+	margin-top: -37px;
+}
+
+#bnc div.icon-drop-target {
+	float: left;
+	width: 32px;
+	height: 32px;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc ul.icon-menu li .icon-drop-target.dark {
+	background-color: #8697ab;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #6c7a8c;
+	width: 30px;
+	height: 30px;
+	padding-top: 1px;
+}
+
+#bnc div.icon-drop-target img {
+	width: 30px;
+	height: 30px;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc div.active-drop {
+	background: url(../images/placeholder-active.jpg) no-repeat 1px 1px;
+}
+
+#bnc div.active-drop > img {
+	display: none;
+	border-style: none;
+	height: 32px;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc #wptouch-icon-menu ul li.depth-2 .icon-drop-target {
+	margin-left: 15px;
+	padding: 0;
+}
+
+#bnc #wptouch-icon-menu ul li.depth-3 .icon-drop-target {
+	margin-left: 30px;
+	padding: 0;
+}
+
+#bnc #wptouch-icon-menu ul li.depth-4 .icon-drop-target {
+	margin-left: 45px;
+	padding: 0;
+}
+
+#bnc #wptouch-icon-menu ul li.depth-5 .icon-drop-target {
+	margin-left: 60px;
+	padding: 0;
+}
+
+#bnc #wptouch-icon-menu ul li.depth-6 .icon-drop-target {
+	margin-left: 75px;
+	padding: 0;
+}
+
+#bnc #wptouch-icon-menu ul li {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+}
+
+#bnc #wptouch-icon-menu ul li.has_children li {
+	border-top: 1px solid #e5e5de;
+}
+
+#bnc .icon-menu .menu-enable {
+	float: right;
+	font-size: 11px;
+	color: #aaa;
+	padding-top: 3%;
+}
+
+#bnc #remove-icon-area {
+	border: 1px solid #ccc;
+	margin-bottom: 25px;
+	font-style: italic;
+	color: #999;
+	font-size: 11px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+#bnc #remove-icon-area.active-trash {
+	color: red;
+	background: #eed6d6;
+	border: 1px solid red;
+}
+
+#bnc img.ui-draggable {
+	position: relative;
+	z-index: 1;
+}
+
+#bnc .save-menu {
+	margin-top: 20px;
+	float: right;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Manage Icons & Sets */
+
+#bnc #manage-sets h5 {
+	font: bold 12px "Lucida Grande", "Lucida sans Unicode", Arial, sans-serif;
+	color: #333;
+}
+
+/* @group Upload Icons + Icon Sets */
+
+/* @group Status */
+
+#bnc #manage-status-area {
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	margin-right: 5%;
+}
+
+#bnc #manage-status.success h6.end {
+	color: green;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 24px;
+	background: url(../images/icons/check.png) no-repeat left center;
+}
+
+#bnc #manage-status.failure h6.end {
+	color: darkred;
+	background: url(../images/icons/warning.png) no-repeat left center;
+	padding-left: 24px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+#bnc #manage-status p.info {
+	font-size: 11px;
+}
+
+#bnc #manage-status-area h5 {
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#bnc #manage-status-area h6 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: "Lucida Grande", "Lucida sans Unicode", Arial, sans-serif;
+	font-weight: bold;
+	position: relative;
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
+}
+
+#bnc #manage-status img#manage-spinner {
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	bottom: 1px;
+	padding-top: 10px;
+}
+
+/* @group New Set */
+
+#bnc #wptouch-set-input-area {
+	border-top: 1px solid #d3d3d3;
+	padding-top: 10px;
+}
+
+#bnc #wptouch-set-input-area label {
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+}
+
+#bnc #wptouch-set-input-area input.text {
+	border: 1px solid #d3d3d3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));
+	background: -moz-linear-gradient(top, #eee, #fff);
+	width: 65%;
+	margin-bottom: 10px;
+}
+
+#bnc #wptouch-set-input-area input.button {
+	float: right;
+	margin-right: 10px;
+	width: 20%;
+	position: relative;
+	z-index: 1;
+}
+
+#bnc #wptouch-set-input-area input.button:hover {
+	border: 1px solid #aaa;
+	color: #5f7176;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Upload Button */
+
+#bnc #manage-upload-area {
+	float: left;
+	width: 45%;
+}
+
+#bnc #manage-upload-button {
+	position: relative;
+	width: 170px;
+	cursor: hand;
+	height: 35px;
+	display: block;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#bnc #manage-upload-button a {
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+	font-size: 11px;
+	background: url(../images/admin-upload-button.jpg) no-repeat 0 0;
+	width: 170px;
+	height: 28px;
+	display: block;
+	padding-top: 8px;
+}
+
+#bnc #manage-upload-button.hover > a {
+	background-position: 0 -34px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Information + Help */
+
+#bnc #manage-info-area {
+	width: 50%;
+	float: right;
+	position: relative;
+	top: -38px;
+}
+
+#bnc #manage-info-area p {
+	font-size: 11px;
+	color: #666;
+	margin-right: 15px;
+}
+
+/* @end */
+
+/* @group Manage Installed Icons + Sets */
+
+#bnc #manage-sets #manage-icon-area h4 {
+	border-top: 1px solid #d3d3d3;
+	padding-top: 15px;
+	width: 98%;
+	margin-top: 20px;
+}
+
+#bnc #manage-sets #manage-icon-area {
+	position: relative;
+}
+
+#bnc #manage-sets #pool-color-switch {
+	width: 45%;
+	display: block;
+	text-align: right;
+	font-size: 11px;
+	position: absolute;
+	top: 18px;
+	right: 1.5%;
+}
+
+#bnc #manage-sets #pool-color-switch a {
+	color: #999;
+}
+
+#bnc #manage-sets #pool-color-switch a.active {
+	color: #d54e21;
+}
+
+#bnc #manage-sets #manage-icon-set-area {
+	background-color: #f5f5f5;
+	border: 1px solid #d3d3d3;
+	width: 98%;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+/* @group Left Menu */
+
+#bnc #manage-sets ul#icon-set-list {
+	float: left;
+	padding: 0;
+	margin: 2% 0 0 2%;
+	width: 20%;
+}
+
+#bnc #manage-sets ul#icon-set-list li {
+	border-bottom: 1px solid #e0e2e2;
+	margin-top: -1px;
+}
+
+#bnc #manage-sets ul#icon-set-list li a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+}
+
+#bnc #manage-sets ul#icon-set-list li.active a {
+	color: #d54e21;
+	position: relative;
+	z-index: 2;
+	margin: -2px -2px -1px -3px;
+	background-color: #f5fbfb;
+	border-bottom: 1px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+/* @end */
+
+/* @group Right Icon Area */
+
+/* @group Set Author Area */
+
+#bnc #manage-sets #manage-set-desc {
+	border-bottom: 1px solid #d3d3d3;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	position: relative;
+	text-align: left;
+	width: 98.5%;
+}
+
+#bnc #manage-sets #manage-set-desc h5 {
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	color: #999;
+	letter-spacing: -1px;
+}
+
+#bnc #manage-sets #manage-set-desc h5 em {
+	font-weight: bold;
+	font-size: 19px;
+	margin-right: 6px;
+	color: #555;
+}
+
+#bnc #manage-sets #manage-set-desc-links {
+	position: absolute;
+	right: 1px;
+	top: 8px;
+	font-size: 11px;
+}
+
+#bnc #manage-sets #manage-set-desc-links a.delete-set {
+	color: darkred;
+}
+
+/* @end */
+
+/* @group Icon Styles */
+
+#bnc #manage-icon-set-area #manage-icon-ajax {
+	position: relative;
+	border-left: 1px solid #d3d3d3;
+	background-color: #f5fbfb;
+	text-align: center;
+	margin-left: 22%;
+	padding: 19px 5px 15px 15px;
+	min-height: 200px;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax ul {
+	min-height: 200px;
+	height: auto !important;
+	height: 200px;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax li {
+	width: 87px;
+	text-align: center;
+	font-size: 11px;
+	display: inline-block;
+	color: #666;
+	position: relative;
+	margin: 4px;
+	height: 70px;
+	padding: 10px 0 0;
+}
+
+#bnc #manage-icon-area.dark #manage-icon-ajax li {
+	background-color: #8697ab;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 3px;
+	border: 1px solid #738597;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax li img {
+	margin-bottom: 2px;
+	width: 32px;
+	height: 32px;
+	-ms-interpolation-mode: bicubic;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax li .icon-name {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: -1px;
+}
+
+#bnc #manage-icon-area.dark #manage-icon-ajax li .icon-name {
+	color: #fff;
+	text-shadow: #374956 0 -1px 0;
+}
+
+#bnc .icon-info .icon-size {
+	color: #999;
+	display: block;
+	font-size: 9px;
+}
+
+#bnc #manage-icon-area.dark #manage-icon-ajax li .icon-size {
+	color: #adc3d5;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax li .delete-icon {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	z-index: 1;
+	text-indent: -1000em;
+	background-image: url(../images/delete-icon.png);
+	-moz-opacity: 0.45;
+	-khtml-opacity: 0.45;
+	opacity: 0.45;
+	top: 0;
+	left: 20px;
+}
+
+#bnc #manage-icon-set-area #manage-icon-ajax li .delete-icon:hover {
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+
+#bnc #empty-icon-pool {
+	background: url(../images/empty-icons.png) no-repeat center top;
+	padding-top: 50px;
+	font-size: 11px;
+	text-shadow: #fff 0 1px 0;
+	color: #999;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 15px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Custom Menu Links */
+
+#bnc .section-custom-menu-items input.text {
+	width: 50%;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group BNCID + Licenses */
+
+/* @group License Information */
+
+#bnc #wptouch-admin-profile ol {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+}
+
+#bnc #wptouch-admin-profile ol li {
+	background: url(../images/icons/check.png) no-repeat 7px center;
+	padding-left: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+#bnc #wptouch-admin-profile ol li:last-child {
+	border-bottom-style: none;
+}
+
+#bnc #wptouch-admin-profile a.wptouch-remove-license {
+	background-color: #fff;
+	padding: 0 2px 0 3px;
+	color: red;
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+#bnc #wptouch-admin-profile a.wptouch-remove-license:hover {
+	opacity: 1;
+}
+
+#bnc #wptouch-admin-profile a.wptouch-add-license {
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+	background: -moz-linear-gradient(top, #fff, #ccc);
+	padding-top: 5px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	text-shadow: #fff 0 1px 0;
+	font-weight: bold;
+}
+
+#bnc #loading-big {
+	width: 93%;
+	height: 32px;
+	background: url(../images/ajax-loader-big.gif) no-repeat center center;
+	display: block;
+	z-index: 1;
+	position: absolute;
+	top: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bnc .section-account-information input#bncid, #bnc .section-account-information input#wptouch_license_key {
+	border: 1px solid #fbbf8c;
+	color: #555;
+	width: 230px;
+}
+
+#bnc .section-account-information input#bncid.valid, #bnc .section-account-information input#wptouch_license_key.valid {
+	border: 1px solid #a2cf64;
+	color: darkgreen;
+}
+
+#bnc .section-account-information input#bncid.partial, #bnc .section-account-information input#wptouch_license_key.partial {
+	border: 1px solid lightblue;
+	color: #666;
+}
+
+#bnc .section-account-information p.license-valid {
+	border: 1px solid #a2cf64;
+	margin-bottom: -29px;
+	margin-left: -11px;
+	margin-right: -11px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-weight: bold;
+	font-size: 11px;
+	background: #dffcde url(../images/valid-stripe.png) repeat-x;
+	color: darkgreen;
+	padding: 5px 10px;
+}
+
+#bnc .section-account-information p.license-invalid {
+	padding: 5px 10px 5px 35px;
+	border: 1px solid #fbbf8c;
+	background: #fcf7e3 repeat-x;
+	color: #555;
+	margin-left: -11px;
+	margin-right: -11px;
+	text-indent: -25px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-bottom: -29px;
+	font-size: 11px;
+}
+
+#bnc .section-account-information p.license-partial {
+	padding: 5px 10px 5px 35px;
+	border: 1px solid lightblue;
+	background: #d1f6fb repeat-x;
+	color: #555;
+	margin-left: -11px;
+	margin-right: -11px;
+	text-indent: -25px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-bottom: -29px;
+	font-size: 11px;
+}
+
+#bnc .section-account-information p a {
+	font-weight: bold;
+}
+
+#bnc .section-account-information p.license-valid span {
+	background: url(../images/icons/check.png) no-repeat 0 center;
+	padding-left: 24px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#bnc .section-account-information p.license-invalid span {
+	background: url(../images/icons/lightbulb_on.png) no-repeat 0 center;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#bnc .section-account-information p.bncid-failed span {
+	background: url(../images/icons/warning.png) no-repeat 0 center;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#bnc .section-account-information p.license-partial span {
+	background: url(../images/icons/info.png) no-repeat 0 center;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#bnc .type-manage-licenses a#partial-activation {
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));
+	background: -moz-linear-gradient(top, #fff, #e6e6e6);
+	margin-top: 10px;
+	border: 1px solid #b1b1b1;
+	padding: 6px 10px 6px 15px;
+	width: 20%;
+	text-align: center;
+	text-shadow: #FFF 0 1px 0;
+	font-weight: bold;
+}
+
+#bnc .type-manage-licenses a#partial-activation:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#fff));
+	background: -moz-linear-gradient(top, #e6e6e6, #fff);
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Footer Links */
+
+#bnc ul#link-menu {
+	font-size: 11px;
+	text-align: center;
+	color: #858787;
+	text-shadow: #fff 0 1px 0;
+	padding: 0;
+	margin: 100px 0 20px;
+	display: block;
+}
+
+#bnc ul#link-menu li {
+	display: inline;
+}
+
+/* @end */
+
+/* @group Languages */
+
+#bnc-form.locale-de_de #bnc .menu-meta .menu-actions, #bnc-form.locale-fr_fr #bnc .menu-meta .menu-actions, #bnc-form.locale-es_es #bnc .menu-meta .menu-actions {
+	margin-bottom: 5px;
+}
+
+/* @group JP */
+
+/* @end */
+
+/* @group FR */
+
+#bnc-form.locale-fr_fr #bnc #manage-info-area {
+	width: 45%;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Client-Mode */
+
+#bnc .client-mode a#tab-section-tools-and-debug {
+	visibility: hidden;
+	height: 0;
+	margin-top: -21px;
+}
+
+
+
+/* @end */

@@ -1,0 +1,167 @@
+/* Plugin Compatibility CSS */
+
+/* @group Dynamic Contact Form */
+
+#dwp-contact-button, .dwpcontact-page {
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Banner Cycler */
+
+#cycler, #cyclerNav {
+	display: none;
+}
+
+
+
+/* @end */
+
+/* @group Gravity Forms */
+
+.gform_wrapper li, .gform_wrapper form li{ list-style-type:none!important;
+	padding-left: 30px;
+}
+
+.gform_wrapper .gform_footer {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+
+
+/* @end */
+
+/* @group WP Skypscraper */
+
+.wp_skyscraper_c2 {
+	display: none;
+}
+
+/* @end */
+
+/* @group AddThis / Tweet This */
+
+.addthis_container {
+	display: none !important;
+}
+
+a.tt {
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Peter's Anti Spam Support */
+
+#secureimgdiv img#cas_image {
+	-webkit-border-radius: 2px	!important;
+	border: 1px solid #adadad	!important;
+	width: auto							!important;
+	height: 21px							!important;
+	float: left								!important;
+}
+
+#secureimgdiv p label {
+	color: #475d79;
+	text-shadow: #eee 1px 1px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#secureimgdiv p small {
+	display: block;
+	margin-top: 5px;
+	font-size: 11px;
+	text-align: justify;
+}
+
+#secureimgdiv p input#securitycode {
+	-webkit-border-radius: 8px;
+	border: 1px solid #adadad;
+	padding: 3px;
+	margin: 0 0 0 0;
+	font-size: 13px;
+	color: #444;
+	width: 101px;
+	-webkit-border-top-left-radius: 1px;
+	-webkit-border-bottom-left-radius: 1px;
+}
+
+/* @end */
+
+/* @group Video, Object & Embed */
+
+.post object, .post embed, .post video {
+	width: 100% !important;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* @end */
+
+/* @group Ribbon Manager Plugin Override */
+
+a#ribbon {
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Subscribe To Comments */
+
+p.subscribe-to-comments {
+	padding: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #fff;
+	border: 1px solid #adadad;
+}
+
+p.subscribe-to-comments label {
+	text-shadow: #fff 0 1px 0 !important;
+	color: #333 !important;
+}
+
+p.subscribe-to-comments input#subscribe {
+	padding-right: 3px;
+	vertical-align: top;
+	width: auto;
+	height: auto;
+}
+
+.commentlist p.subscribe-to-comments {
+}
+
+/* @end */
+
+/* @group Digg Box */
+
+span.db-body {
+	display: none;
+}
+
+
+
+/* @end */
+
+/* @group WP Thread Comment */
+
+p.thdrpy, p.thdmang {
+	display: inline;
+	margin-right: 10px;
+}
+
+
+
+/* @end */
+
+/* @group WP Greet Box */
+
+#greet_block {
+	display: none;
+}
+
+
+
+/* @end */

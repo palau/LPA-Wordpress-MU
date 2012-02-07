@@ -1,0 +1,113 @@
+/* WOO CUSTOM STYLESHEET
+Instructions: Add your custom styles here instead of style.css so it is easier to update the theme. Simply copy an existing style from style.css to this file, and modify it to your liking.*/
+/* 2.1 Containers & Columns */
+
+#top { background:#232323 url(http://blogs.palau.org/wp-content/themes/headlines/images/bg_header2.jpg) no-repeat top center; }
+
+/* 2.2.2 Category Navigation */
+#cat-nav { position:relative; background:url(images/bg-catnav-dark.png) repeat-x bottom; height:58px; border-top:2px solid #000; }
+#cat-nav a { color:#fff; text-decoration:none; text-shadow: #000 0px 1px 0px; font-style: normal;}
+#cat-nav a:hover { color:#FFF7F0; }
+#cat-nav li:hover { background:#49152A; background: url(images/bg-loopedSlider-hover.png) repeat-x bottom;}
+#cat-nav a span { font-family:"Lucida Grande", Helvetica, Verdana, Geneva, sans-serif; font-size:11px; font-style:normal; font-weight:bold; color:#606060; text-shadow:none;}
+/* #cat-nav .nav-description { display:block; } */
+#cat-nav a:hover span { color:#555; }
+
+#secnav, #secnav ul { position:relative; z-index:100; margin:0; padding:0; list-style:none; line-height:1; background: url(images/secnav-div-dark.png) no-repeat right; }
+#secnav a { letter-spacing: 0.2em; text-transform: uppercase; font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif; font-weight: bold; font-size:12px; display:block; z-index:100; padding:0 15px; line-height:58px; text-decoration:none;}
+#secnav li { float:left; width: auto; background: url(images/secnav-div-dark.png) no-repeat left; height:58px; }
+/* #secnav li ul  { position: absolute; left: -999em; width: 180px; } */
+#secnav li ul li  { background:url(images/bg-catnav-dark.png) repeat-x bottom; border:1px solid #ddd; border-width:0 1px; height:30px; }
+#secnav li ul li a  {font-family:"Lucida Grande", Helvetica, Verdana, Geneva, sans-serif; color:#9D9D9D; }
+
+/* 2.2.3 Search */
+#cat-nav #search { background:url(images/bg-search.png) no-repeat; height:31px; width:181px; margin-top:14px; position:relative; }
+#cat-nav #search input { background:none; border:none; padding:6px 25px 8px 12px; width:156px; margin:0; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:12px; color:#4B4B4B; }
+
+
+body  {font: 12px Helvetica,Arial,Sans-serif; line-height: 1.2; color: #333; background:url(images/bg-content.png) repeat-y top; background-color: #CEC9BC; }
+
+/* 2.3 header */
+#twitter-top { position:absolute;right:0px;top:36px; overflow:hidden; }
+#twitter-top div.logo { float:left; background:url(images/bg-twitter.png) no-repeat; width:60px; height:76px;  }
+#twitter-top div.tweet { float:left; background:url(images/bg-twitter.png) no-repeat right; max-width:450px; height:76px;  }
+#twitter-top img { float:left; margin: 14px 0 0 15px; }
+#twitter-top #twitter_update_list { padding:11px 20px 0 0px; font-family:Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#eee; line-height:18px; }
+#twitter-top #twitter_update_list a { color:#eee; border-bottom:1px dotted; }
+#twitter-top #twitter_update_list a:hover { color:#eee; border-bottom:1px solid; }
+
+/* 2.4 Content */
+#content{min-height:400px;padding:0; margin:20px auto 30px;
+/* 	background-position: center top; background-image: url(images/bg-content.png); background-repeat: repeat-y;  */
+}
+
+
+/* 2.6 Footer */
+#footer{ background:#14191A; color:#cacaca; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:11px;padding: 25px 0;border-top: 2px solid #011E24;}
+
+
+/* 2.6.1 Footer Widget Area */
+#footer-widgets{ position:relative; background:url(images/bevel-footer-widgets.png) repeat-x top; background-color: #052a33; border-bottom:2px solid #011E24; }
+#footer-widgets .container { background:url(images/bg-footer-widgets.png) no-repeat center 2px; padding:30px 0 10px; }
+#footer-widgets .block { width:300px; float:left; margin:0 30px 0px 0; }
+#footer-widgets .block.last { margin-right:0;; }
+#footer-widgets .widget h3  { background:url(images/bg-footer-widget-title.png) repeat-x; text-shadow: #fff 0px 1px 0px;}
+
+
+/* Featured Area - make it dark! */
+
+
+#loopedSlider {background:#000; border-bottom: 1px solid #000; border-right: 1px solid #242424; }
+#loopedSlider .container {background:#000; border-right:1px solid #242424; }
+#loopedSlider .slides .post-bottom { border-bottom:none; background: url(images/bg-catnav-dark.png) repeat-x bottom; background-color: #242424; border-top: 1px solid #242424; }
+#loopedSlider .slides .post {border:none;}
+
+#loopedSlider ul.pagination {border-top:1px solid #242424; }
+#loopedSlider ul.pagination li { float:left; border-bottom:1px solid #1D1D1D; background: url(images/bg-loopedSlider-dark.png) repeat-x bottom;}
+#loopedSlider ul.pagination li a {opacity:0.7; border-bottom:1px solid #242424;}
+#loopedSlider ul.pagination li a:hover { opacity:1; background:#49152A; background: url(images/bg-loopedSlider-hover.png) repeat-x bottom;}
+#loopedSlider ul.pagination li.active a { opacity:1; background:#353535; background: url(images/bg-loopedSlider-med.png) repeat-x bottom;}
+/* highlight text in box */
+#loopedSlider ul.pagination li a, #loopedSlider ul.pagination li a:hover span.meta, #loopedSlider ul.pagination li.active a span.meta{color:#fff}
+
+#loopedSlider ul.pagination img { background:#000; padding:2px; border:1px solid #212121; float:left; margin-right:10px;}
+#loopedSlider ul.pagination em { color:#555; font-family:Georgia, serif; font-weight:bold; line-height:18px; margin-top:10px; font-style:normal; }
+
+#loopedSlider ul.pagination .meta {font-size:13px; color:#A9A9A9; line-height:16px; text-transform: uppercase;}
+#loopedSlider ul.pagination h4.meta {text-transform: none;}
+
+#contact-page ol.forms textarea{height:250px;width:400px;}
+
+/* 3.x - posts */
+
+.post .thumbnail {margin-bottom: 20px; }
+.entry h3, .entry h4 {
+	margin-top:1em;
+}
+.entry h4{
+	margin-bottom: 0;
+	font-style: italic;
+	font-size: 16px;
+}
+/* Featured poster area on home */
+
+div.slides div.post .featuredPoster img{
+	margin:0;
+	padding:0;
+	border: none;
+}
+
+/* 3.1 Typographic Elements */
+.entry p a, #sidebar a { font-weight: bold; }
+
+/* 3.7 Buttons / Banners 
+a.btn-small { background:url(images/bg-button.png) no-repeat center 0; padding:3px 7px; color:#fff; font:Georgia, serif; font-size:11px; font-style:italic; text-shadow: #777 0px 1px 0px; background-color:#838C1C; border:1px solid #626915; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+a.btn-small:hover { cursor:pointer; opacity:0.8; }
+*/
+
+#author p{font-size: 13px;}
+
+/* for custom social media widget */
+.socialmedia-buttons {
+	margin: 10px 0 0 0;
+}

@@ -1,0 +1,78 @@
+
+A Wordpress Plugin by EZPZ Solutions (http://ezpzsolutions.net)
+
+Developed by Joe "UncaJoe" Cook
+
+-------------------------------------------------------------------------------
+
+== Changelog ==
+
+= 0.5.0 =
+* Added EZPZ Easy Restore capability
+* Added auto updated FAQ section
+* Added auto updated News section
+* Streamlined coding and corrected typos
+* Improved error handling
+
+= 0.4.6 =
+* Added ability to customize datestamp format
+* Added option to block browser downloads of backup files
+* Added option to log php errors for troubleshooting purposes
+* Removed troublesome asterisk in cron backups
+* Added pre-installation compatibility checks for most troublesome issues
+
+= 0.4.5 =
+* Added ability to schedule backups using wp-cron
+* Timezone bug RESOLVED
+* Relocated sql file in backup file for easier locating
+* Streamlined coding for smoother operation
+
+= 0.4.2 =
+* Added optional datestamp formats
+* Added improved timezone support
+* Added styling option
+* Streamlined coding
+
+= 0.4.0 =
+* Added option to exclude folders
+* Added option to adjust execution speed
+* Added option to backup wp-content folder only
+* Added option for more control over database backup
+
+= 0.3.0.2 =
+* mysqldump problem RESOLVED
+
+= 0.3.0.1 =
+* Storing excess backups bug RESOLVED
+
+= 0.3.0 =
+* Improved cross-browser performance
+* Now BASH free, All scripting is in PHP/JAVASCRIPT
+* Improved timer
+* Streamlined code for faster operation
+* Now using tgz archive format to improve performance
+
+= 0.2.9 =
+* Download saved file bug RESOLVED
+* Individualized zip and sql files based on blog name
+* Added support for shared databases
+* Added elapsed time counter
+
+= 0.2.8 =
+* Now compatible with WordPress 2.6 +
+
+= 0.2.5 =
+* Public Release
+
+= 0.2.2 =
+* Beautified display
+* Added visual confirmation of data collection and archive completion
+
+= 0.2.0 =
+* IE download bug RESOLVED
+
+= 0.1.2 =
+* Download saved backup bug RESOLVED
+
+= 0.1.0 =
+* Initial limited release for testing

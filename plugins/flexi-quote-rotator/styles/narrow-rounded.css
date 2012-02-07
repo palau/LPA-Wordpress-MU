@@ -1,0 +1,17 @@
+#quotearea {
+   background: url(images/narrow-rounded.gif) center center no-repeat;
+   width: 230px;
+   height: 100px;
+   padding: 12px 35px 0 35px;
+   margin: 15px auto;
+}
+#quoterotator {
+   line-height: 135%;
+}
+#quoteauthor {
+   display: block;
+   text-align: right;
+   font-weight: bold;
+   font-style: italic;
+   font-size: smaller;
+}

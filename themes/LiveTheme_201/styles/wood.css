@@ -1,0 +1,7 @@
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #fff url(wood/bg.jpg) top fixed no-repeat;
+}

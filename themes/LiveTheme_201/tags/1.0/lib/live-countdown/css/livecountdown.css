@@ -1,0 +1,25 @@
+/*
+ * Live Countdown CSS
+ * Copyright (c) 2010 The Standard Theme Team
+ * Licensed under GPL2
+ * http://standardtheme.com
+ */
+
+.live_countdown { display: none; }
+.live_countdown_container { background:url(images/counter-bg.jpg) repeat-x; height:50px; padding:15px 15px 0 20px; font-size:18px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;  }
+.live_countdown_live { font-family: arial, helvetica; font-size:24px; text-transform:uppercase; margin-right:15px; float:left; }
+
+.lt_num { background: url(images/CD-bev.png) no-repeat; display:block; float:left; height:35px; width:45px; text-align: center; padding-top:5px; margin-right:5px; text-shadown: 1px 1px 1px #000; }
+.lt_label { color:#444; margin-right:10px; font-size:10px; float:left; }
+
+.live_countdown_hours_left { }
+.live_countdown_hours_label { }
+
+.live_countdown_hours_left { }
+.live_countdown_hours_label { }
+
+.live_countdown_minutes_left { }
+.live_countdown_minutes_label { }
+
+.live_countdown_seconds_left { }
+.live_countdown_seconds_label { }

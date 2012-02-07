@@ -1,0 +1,11 @@
+/*
+ * Live Tweets CSS
+ * Copyright (c) 2010 The Standard Theme Team
+ * Licensed under GPL2
+ * http://standardtheme.com
+ */
+ 
+.live_tweets_controls,
+.live_tweets_resume,
+.live_tweets_error { display: none; }
+.live_tweets_loading { margin: 125px 0 0 145px; }

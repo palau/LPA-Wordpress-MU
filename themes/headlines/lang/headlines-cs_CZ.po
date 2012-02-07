@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "% Comments"
+msgstr "% Komentářů"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "% Responses"
+msgstr "% Odpovědí"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "0 Comments"
+msgstr "O Komentářů"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "1 Comment"
+msgstr "1 Komentář"
+
+#. Text in echo
+#: headlines/footer.php:21
+msgid "All Rights Reserved."
+msgstr "Všechna práva vyhrazena."
+
+#. Text in echo
+#: headlines/archive.php:9
+#: headlines/archive.php:12
+#: headlines/archive.php:15
+#: headlines/archive.php:18
+#: headlines/header.php:11
+#: headlines/header.php:12
+msgid "Archive"
+msgstr "Archiv"
+
+#. Text in echo
+#: headlines/archive.php:21
+msgid "Archive by Author"
+msgstr "Archiv dle Autora"
+
+#. Text in echo
+#: headlines/header.php:8
+msgid "Author Archives"
+msgstr "Archiv Autora"
+
+#. Text in function
+#: headlines/includes/theme-widgets.php:210
+msgid "Author Info"
+msgstr "Informace o autorovi"
+
+#. Text in echo
+#: headlines/template-archives.php:28
+#: headlines/template-sitemap.php:24
+msgid "Categories"
+msgstr "Kategorie"
+
+#. Text in echo
+#: headlines/sidebar.php:13
+#: headlines/template-sitemap.php:45
+msgid "Comments"
+msgstr "Komentáře"
+
+#. Text in echo
+#: headlines/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr "Komentáře k tomuto článku"
+
+#. Text in echo
+#: headlines/comments-legacy.php:117
+#: headlines/comments.php:53
+msgid "Comments are closed."
+msgstr "Komentáře jsou uzavřeny."
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Designed by"
+msgstr "Design od"
+
+#. Text in echo
+#: headlines/includes/theme-comments.php:29
+msgid "Direct link to this comment"
+msgstr "Přímý odkaz na tento komentář"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:11
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: headlines/comments.php:92
+msgid "Email (required)"
+msgstr "Email (vyžadován)"
+
+#. Text in echo
+#: headlines/search-form.php:6
+#: headlines/header.php:132
+msgid "Enter keywords..."
+msgstr "Zadejte klíčová slova"
+
+#. Text in echo
+#: headlines/includes/featured.php:4
+msgid "Featured"
+msgstr "Zvýrazněné"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Follow on Twitter"
+msgstr "Sledujte nás na Twitteru"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:4
+msgid "Home"
+msgstr "Domů"
+
+#. Text in echo
+#: headlines/sidebar.php:12
+msgid "Latest"
+msgstr "Nejnovější"
+
+#. Text in echo
+#: headlines/comments-legacy.php:126
+#: headlines/comments.php:65
+msgid "Leave a Reply"
+msgstr "Zanechte komentář"
+
+#. Text in function
+#: headlines/comments.php:65
+msgid "Leave a Reply to %s"
+msgstr "Zanechte komentář u %"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Log out of this account"
+msgstr "Odhlásit se z tohoto účtu"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logged in as"
+msgstr "Přihlášen jako"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logout"
+msgstr "Odhlásit se"
+
+#. Text in echo
+#: headlines/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr "Email (nebude zveřejněn)"
+
+#. Text in echo
+#: headlines/template-archives.php:34
+msgid "Monthly Archives"
+msgstr "Archiv po měsících"
+
+#. Text in echo
+#: headlines/comments-legacy.php:141
+msgid "Name"
+msgstr "Jméno"
+
+#. Text in echo
+#: headlines/comments.php:88
+msgid "Name (required)"
+msgstr "Jméno (vyžadováno)"
+
+#. Text in function
+#: headlines/search.php:44
+#: headlines/index.php:54
+#: headlines/archive.php:75
+msgid "Newer Entries"
+msgstr "Novější příspěvky"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "No Responses"
+msgstr "Žádné odpovědi"
+
+#. Text in echo
+#: headlines/comments.php:49
+msgid "No comments yet... Be the first to leave a reply!"
+msgstr "Zatím žádné komentáře... Buďte první!"
+
+#. Text in function
+#: headlines/search.php:45
+#: headlines/index.php:55
+#: headlines/archive.php:76
+msgid "Older Entries"
+msgstr "Starší příspěvky"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "One Response"
+msgstr "Jedna odpověd"
+
+#. Text in echo
+#: headlines/template-sitemap.php:18
+msgid "Pages"
+msgstr "Stránky"
+
+#. Text in echo
+#: headlines/includes/latest.php:8
+msgid "Permalink to "
+msgstr "Trvalý odkaz na"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:63
+msgid "Photos on <span>Flick<span>r</span></span>"
+msgstr "Fotky na <span>Flick<span>ru</span></span>"
+
+#. Text in echo
+#: headlines/sidebar.php:11
+msgid "Popular"
+msgstr "Populární"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:9
+msgid "Posts"
+msgstr "Články"
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Powered by"
+msgstr "Pohání"
+
+#. Text in echo
+#: headlines/index.php:30
+#: headlines/includes/featured.php:54
+#: headlines/archive.php:51
+msgid "Read more"
+msgstr "Ćíst dále"
+
+#. Text in function
+#: headlines/index.php:28
+#: headlines/archive.php:49
+msgid "Read more..."
+msgstr "Číst dále..."
+
+#. Text in echo
+#: headlines/search-form.php:3
+#: headlines/search-form.php:7
+msgid "Search"
+msgstr "Hledání"
+
+#. Text in echo
+#: headlines/header.php:7
+msgid "Search Results"
+msgstr "Výsledky vyhledávání"
+
+#. Text in echo
+#: headlines/search.php:8
+msgid "Search results"
+msgstr "Výsledky vyhledávání"
+
+#. Text in echo
+#: headlines/single.php:35
+msgid "Share"
+msgstr "Sdílet"
+
+#. Text in echo
+#: headlines/template-fullwidth.php:29
+#: headlines/single.php:61
+#: headlines/search.php:37
+#: headlines/index.php:47
+#: headlines/404.php:19
+#: headlines/page.php:29
+#: headlines/archive.php:68
+msgid "Sorry, no posts matched your criteria."
+msgstr "Omlouváme se, žádný článek nevyhovuje zadaným kritériím."
+
+#. Text in echo
+#: headlines/comments-legacy.php:155
+#: headlines/comments.php:109
+msgid "Submit Comment"
+msgstr "Odeslat Komentář"
+
+#. Text in echo
+#: headlines/header.php:13
+msgid "Tag Archive"
+msgstr "Archiv štítků"
+
+#. Text in echo
+#: headlines/archive.php:24
+msgid "Tag Archives:"
+msgstr "Archivy štítků:"
+
+#. Text in echo
+#: headlines/sidebar.php:14
+msgid "Tags"
+msgstr "Štítky"
+
+#. Text in echo
+#: headlines/template-archives.php:18
+msgid "The Last 30 Posts"
+msgstr "Posledních 30 článků"
+
+#. Text in echo
+#: headlines/comments-legacy.php:9
+#: headlines/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Tento článek je chráněn heslem. Pro zobrazneí komentářů vložte heslo."
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "This post was written by"
+msgstr "Tento článek napsal"
+
+#. Text in echo
+#: headlines/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr "Trackbacky pro tento článek"
+
+#. Text in echo
+#: headlines/comments.php:35
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacky/Pingbacky"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Text in echo
+#: headlines/comments-legacy.php:147
+msgid "Website"
+msgstr "Web"
+
+#. Text in echo
+#: headlines/comments.php:77
+#: headlines/comments.php:96
+msgid "Website (optional)"
+msgstr "Web (nevyžadováno)"
+
+#. Text in echo
+#: headlines/comments.php:105
+msgid "You can use these tags"
+msgstr "Můžete použít tyto tagy"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "You must be"
+msgstr "Musíte být"
+
+#. Text in echo
+#: headlines/comments-legacy.php:57
+#: headlines/comments-legacy.php:89
+#: headlines/includes/theme-comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení"
+
+#. Text in echo
+#: headlines/comments-legacy.php:61
+#: headlines/comments-legacy.php:93
+#: headlines/includes/theme-comments.php:29
+msgid "at"
+msgstr "u"
+
+#. Text in echo
+#: headlines/template-archives.php:24
+msgid "comments"
+msgstr "komentáře"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "logged in"
+msgstr "přihlášen jako"
+
+#. Text in echo
+#: headlines/includes/comments.php:29
+msgid "on "
+msgstr "v"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "posts on"
+msgstr "články o"
+
+#. Text in echo
+#: headlines/comments.php:19
+msgid "to"
+msgstr "k"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "to post a comment."
+msgstr "pro napsání komentáře."
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "who has written"
+msgstr "kdo napsal"
+
+#. Text in echo
+#: headlines/archive.php:9
+msgid "RSS feed for this section"
+msgstr "RSS Kanál pro tuto sekci"
+

@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sigrun Norhagen <snorhagen@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "% Responses"
+msgstr "% Svar"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "0 Comments"
+msgstr "0 Kommentarer"
+
+#. Text in function
+#: headlines/single.php:24
+#: headlines/search.php:19
+#: headlines/index.php:23
+#: headlines/includes/featured.php:50
+#: headlines/archive.php:44
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#. Text in echo
+#: headlines/footer.php:21
+msgid "All Rights Reserved."
+msgstr "Alle rettigheter"
+
+#. Text in echo
+#: headlines/archive.php:9
+#: headlines/archive.php:12
+#: headlines/archive.php:15
+#: headlines/archive.php:18
+#: headlines/header.php:11
+#: headlines/header.php:12
+msgid "Archive"
+msgstr "Arkiv"
+
+#. Text in echo
+#: headlines/archive.php:21
+msgid "Archive by Author"
+msgstr "Arkiv etter forfatter"
+
+#. Text in echo
+#: headlines/header.php:8
+msgid "Author Archives"
+msgstr "Forfatterarkiv"
+
+#. Text in function
+#: headlines/includes/theme-widgets.php:210
+msgid "Author Info"
+msgstr "Forfatterinfo"
+
+#. Text in echo
+#: headlines/template-archives.php:28
+#: headlines/template-sitemap.php:24
+msgid "Categories"
+msgstr "Kategorier"
+
+#. Text in echo
+#: headlines/sidebar.php:13
+#: headlines/template-sitemap.php:45
+msgid "Comments"
+msgstr "Kommentarer"
+
+#. Text in echo
+#: headlines/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr "Kommentarer for dette innlegget"
+
+#. Text in echo
+#: headlines/comments-legacy.php:117
+#: headlines/comments.php:53
+msgid "Comments are closed."
+msgstr "Kommentarer er slått av"
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Designed by"
+msgstr "Designet av"
+
+#. Text in echo
+#: headlines/includes/theme-comments.php:29
+msgid "Direct link to this comment"
+msgstr "Direktelink til disse kommentarene"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:11
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: headlines/comments.php:92
+msgid "Email (required)"
+msgstr "Email (må fylles ut)"
+
+#. Text in echo
+#: headlines/search-form.php:6
+#: headlines/header.php:132
+msgid "Enter keywords..."
+msgstr "Skriv inn søkeord"
+
+#. Text in echo
+#: headlines/includes/featured.php:4
+msgid "Featured"
+msgstr "Siste nytt!"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Follow on Twitter"
+msgstr "Følg meg på Twitter"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:4
+msgid "Home"
+msgstr "Hjem"
+
+#. Text in echo
+#: headlines/sidebar.php:12
+msgid "Latest"
+msgstr "Siste"
+
+#. Text in echo
+#: headlines/comments-legacy.php:126
+#: headlines/comments.php:65
+msgid "Leave a Reply"
+msgstr "Skriv en kommentar"
+
+#. Text in function
+#: headlines/comments.php:65
+msgid "Leave a Reply to %s"
+msgstr "Skriv en kommentar til %s"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Log out of this account"
+msgstr "Logg ut av denne kontoen"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logged in as"
+msgstr "Logget inn som"
+
+#. Text in echo
+#: headlines/comments-legacy.php:136
+#: headlines/comments.php:83
+msgid "Logout"
+msgstr "Logg ut"
+
+#. Text in echo
+#: headlines/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr "Mail (blir ikke publisert)"
+
+#. Text in echo
+#: headlines/template-archives.php:34
+msgid "Monthly Archives"
+msgstr "Månedlige arkiv"
+
+#. Text in echo
+#: headlines/comments-legacy.php:141
+msgid "Name"
+msgstr "Navn"
+
+#. Text in echo
+#: headlines/comments.php:88
+msgid "Name (required)"
+msgstr "Navn (må fylles ut)"
+
+#. Text in function
+#: headlines/search.php:44
+#: headlines/index.php:54
+#: headlines/archive.php:75
+msgid "Newer Entries"
+msgstr "Nyere innlegg"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "No Responses"
+msgstr "Ingen kommentarer"
+
+#. Text in echo
+#: headlines/comments.php:49
+msgid "No comments yet... Be the first to leave a reply!"
+msgstr "Ingen kommentarer enda... Bli den første til å gi en kommentar!"
+
+#. Text in function
+#: headlines/search.php:45
+#: headlines/index.php:55
+#: headlines/archive.php:76
+msgid "Older Entries"
+msgstr "Eldre innlegg"
+
+#. Text in function
+#: headlines/comments.php:19
+msgid "One Response"
+msgstr "Ett innlegg"
+
+#. Text in echo
+#: headlines/template-sitemap.php:18
+msgid "Pages"
+msgstr "Sider"
+
+#. Text in echo
+#: headlines/includes/latest.php:8
+msgid "Permalink to "
+msgstr "Permalink til"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:63
+msgid "Photos on <span>Flick<span>r</span></span>"
+msgstr "Bilder på <span>Flick<span>r</span></span>"
+
+#. Text in echo
+#: headlines/sidebar.php:11
+msgid "Popular"
+msgstr "Populære"
+
+#. Text in echo
+#: headlines/includes/page-nav.php:9
+msgid "Posts"
+msgstr "Innlegg"
+
+#. Text in echo
+#: headlines/footer.php:25
+msgid "Powered by"
+msgstr "Powered by"
+
+#. Text in echo
+#: headlines/index.php:30
+#: headlines/includes/featured.php:54
+#: headlines/archive.php:51
+msgid "Read more"
+msgstr "Les mer"
+
+#. Text in function
+#: headlines/index.php:28
+#: headlines/archive.php:49
+msgid "Read more..."
+msgstr "Les mer..."
+
+#. Text in echo
+#: headlines/search-form.php:3
+#: headlines/search-form.php:7
+msgid "Search"
+msgstr "Søk"
+
+#. Text in echo
+#: headlines/header.php:7
+msgid "Search Results"
+msgstr "Søkeresultater"
+
+#. Text in echo
+#: headlines/search.php:8
+msgid "Search results"
+msgstr "Søkeresultater"
+
+#. Text in echo
+#: headlines/single.php:35
+msgid "Share"
+msgstr "Del"
+
+#. Text in echo
+#: headlines/template-fullwidth.php:29
+#: headlines/single.php:61
+#: headlines/search.php:37
+#: headlines/index.php:47
+#: headlines/404.php:19
+#: headlines/page.php:29
+#: headlines/archive.php:68
+msgid "Sorry, no posts matched your criteria."
+msgstr "Beklager, ingen innlegg passet ditt søk"
+
+#. Text in echo
+#: headlines/comments-legacy.php:155
+#: headlines/comments.php:109
+msgid "Submit Comment"
+msgstr "Send inn kommentar"
+
+#. Text in echo
+#: headlines/header.php:13
+msgid "Tag Archive"
+msgstr "Tagarkiv"
+
+#. Text in echo
+#: headlines/archive.php:24
+msgid "Tag Archives:"
+msgstr "Tagarkiv:"
+
+#. Text in echo
+#: headlines/sidebar.php:14
+msgid "Tags"
+msgstr "Tags"
+
+#. Text in echo
+#: headlines/template-archives.php:18
+msgid "The Last 30 Posts"
+msgstr "De 30 siste innleggene"
+
+#. Text in echo
+#: headlines/comments-legacy.php:9
+#: headlines/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dette innlegget er passordbeskyttet. Skriv inn passordet for å se kommentarene."
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "This post was written by"
+msgstr "Dette innlegget er skrevet av"
+
+#. Text in echo
+#: headlines/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr "Trackbacks For Dette Innlegget"
+
+#. Text in echo
+#: headlines/comments.php:35
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#. Text in echo
+#: headlines/header.php:101
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Text in echo
+#: headlines/comments-legacy.php:147
+msgid "Website"
+msgstr "Webside"
+
+#. Text in echo
+#: headlines/comments.php:77
+#: headlines/comments.php:96
+msgid "Website (optional)"
+msgstr "Webside (valgfri)"
+
+#. Text in echo
+#: headlines/comments.php:105
+msgid "You can use these tags"
+msgstr "Du kan bruke disse taggene"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "You must be"
+msgstr "Du må være"
+
+#. Text in echo
+#: headlines/comments-legacy.php:57
+#: headlines/comments-legacy.php:89
+#: headlines/includes/theme-comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Kommentaren venter på godkjennelse"
+
+#. Text in echo
+#: headlines/comments-legacy.php:61
+#: headlines/comments-legacy.php:93
+#: headlines/includes/theme-comments.php:29
+msgid "at"
+msgstr "på"
+
+#. Text in echo
+#: headlines/template-archives.php:24
+msgid "comments"
+msgstr "kommentarer"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "logged in"
+msgstr "logget inn"
+
+#. Text in echo
+#: headlines/includes/comments.php:29
+msgid "on "
+msgstr "på"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "posts on"
+msgstr "innlegg med"
+
+#. Text in echo
+#: headlines/comments.php:19
+msgid "to"
+msgstr "til"
+
+#. Text in echo
+#: headlines/comments-legacy.php:129
+#: headlines/comments.php:73
+msgid "to post a comment."
+msgstr "å poste en kommentar"
+
+#. Text in echo
+#: headlines/includes/theme-widgets.php:17
+msgid "who has written"
+msgstr "som har skrevet"
+
+#. Text in echo
+#: headlines/archive.php:9
+msgid "RSS feed for this section"
+msgstr "RSS feed for denne delen"
+
+#. Text in echo
+#: headlines/404.php:12
+msgid "Error 404 - Page not found!"
+msgstr "Error 404 - Side ikke funnet!"
+
+#. Text in echo
+#: headlines/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Siden du prøver å nå finnes ikke eller har blitt flyttet. Prøv å bruke menyene eller søkefeltet for å finne det du søker etter."
+

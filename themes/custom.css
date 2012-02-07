@@ -1,0 +1,9 @@
+/* custom styles for palau.tv */
+/* Top Content Area */
+
+#main { background: #fff; padding: 0 0 30px; margin: 0 0 30px;}
+#main-top { background: url(images/trans-rep.png); padding: 10px 10px 20px 10px; margin-bottom: 30px;}
+#main-top.fullwidth {width: 980px;}
+#main-video { background: url(images/video-bg-shadow.png) no-repeat; width: 650px; padding: 10px 0 10px 10px; }
+#livetheme-online-container { display: none; background: #000; width: 645px; }
+#livetheme-offline-container { display:none; float:left; position: relative; background: #000; width: 640px; height: 360px; }

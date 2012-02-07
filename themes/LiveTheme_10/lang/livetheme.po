@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Standard Theme 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-11 09:47-0500\n"
+"PO-Revision-Date: 2010-11-11 09:47-0500\n"
+"Last-Translator: \n"
+"Language-Team: The 8BIT Network <staff@8bit.io>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+#: ../archive.php:45
+msgid "Error 404 - Page Not Found!"
+msgstr ""
+
+#: ../404.php:10
+#: ../archive.php:48
+#: ../page.php:23
+#: ../single.php:38
+msgid "Whoops! Something broke. Please try again!"
+msgstr ""
+
+#: ../archive.php:30
+#: ../single.php:17
+msgid "in"
+msgstr ""
+
+#: ../archive.php:33
+#: ../single.php:20
+msgid "with"
+msgstr ""
+
+#: ../archive.php:35
+#: ../single.php:22
+msgid "0 Comments"
+msgstr ""
+
+#: ../archive.php:35
+#: ../single.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: ../archive.php:35
+#: ../single.php:22
+msgid "% Comments"
+msgstr ""
+
+#: ../archive.php:54
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../archive.php:57
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Home"
+msgstr ""
+
+#: ../index.php:28
+msgid "Twitter"
+msgstr ""
+
+#: ../index.php:36
+msgid "Facebook"
+msgstr ""
+
+#: ../index.php:81
+msgid "Tweet This Out!"
+msgstr ""
+
+#: ../page.php:20
+#: ../single.php:35
+msgid "Sorry!"
+msgstr ""
+
+#: ../sitemap.php:11
+msgid "Pages:"
+msgstr ""
+
+#: ../sitemap.php:17
+msgid "Categories:"
+msgstr ""
+
+#: ../sitemap.php:23
+msgid "Posts Per Category:"
+msgstr ""
+
+#: ../sitemap.php:36
+msgid "Comments"
+msgstr ""
+
+#: ../admin/functions.php:555
+msgid "Select from the Live Theme Gallery"
+msgstr ""
+
+#: ../lib/livetheme.php:48
+msgid "Countdown"
+msgstr ""
+
+#: ../lib/livetheme.php:56
+msgid "Twitter Tab"
+msgstr ""
+
+#: ../lib/livetheme.php:64
+msgid "Facebook Tab"
+msgstr ""
+
+#: ../lib/livetheme.php:72
+msgid "Sidebar Advertisement"
+msgstr ""
+
+#: ../lib/livetheme.php:80
+msgid "Footer Advertisement #1"
+msgstr ""
+
+#: ../lib/livetheme.php:88
+msgid "Footer Advertisement #2"
+msgstr ""
+
+#: ../lib/livetheme.php:96
+msgid "Footer Advertisement #3"
+msgstr ""
+
+#: ../lib/livetheme.php:124
+msgid "Standard Theme Custom Menu"
+msgstr ""
+
+#: ../lib/livetheme.php:385
+msgid "Powered by the"
+msgstr ""
+
+#: ../lib/livetheme.php:387
+msgid "Live Theme"
+msgstr ""
+
+#: ../lib/livetheme.php:478
+msgid "Live Theme - Sidebar Ad"
+msgstr ""
+
+#: ../lib/livetheme.php:499
+msgid "Live Theme - Footer Ad #1"
+msgstr ""
+
+#: ../lib/livetheme.php:520
+msgid "Live Theme - Footer Ad #2"
+msgstr ""
+
+#: ../lib/livetheme.php:541
+msgid "Live Theme - Footer Ad #3"
+msgstr ""
+
+#: ../lib/livetheme.php:624
+msgid "at"
+msgstr ""
+
+#: ../lib/livetheme.php:627
+msgid "Edit"
+msgstr ""
+
+#: ../lib/livetheme.php:641
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: ../lib/livetheme.php:682
+#: ../lib/livetheme.php:684
+#: ../lib/livetheme.php:686
+#: ../lib/livetheme.php:698
+#, php-format
+msgid "Archive - %s"
+msgstr ""
+
+#: ../lib/livetheme.php:688
+msgid "Archive by Author"
+msgstr ""
+
+#: ../lib/livetheme.php:690
+#, php-format
+msgid "Tag Archive - %s"
+msgstr ""
+
+#: ../lib/livetheme.php:714
+#: ../theme-options/analytics-and-rss_7.php:5
+msgid "RSS Feed"
+msgstr ""
+
+#: ../lib/livetheme.php:741
+msgid "No categories"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:37
+msgid "Displays a countdown in days, hours, minutes, and seconds based on the specified date."
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:71
+msgid "Live In"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:75
+msgid " Days"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:79
+msgid " Hrs"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:83
+msgid " Min"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:87
+msgid " Sec"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:150
+msgid "Date"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:176
+msgid "Time"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:200
+msgid "AM"
+msgstr ""
+
+#: ../lib/live-countdown/livecountdown.php:203
+msgid "PM"
+msgstr ""
+
+#: ../lib/livefacebook/livefacebook.php:37
+msgid "Makes it easy to embed a Facebook Live Stream into your site. Bring your own Application ID."
+msgstr ""
+
+#: ../lib/livefacebook/livefacebook.php:85
+msgid "Facebook Application ID:"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:37
+msgid "Displays a feed of what people are saying based on the given hashtag."
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:39
+msgid "Live Tweets"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:65
+msgid "Loading..."
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:69
+msgid "You entered an invalid hashtag and/or username."
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:76
+msgid "Pause"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:80
+msgid "Resume"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:124
+msgid "Leave a field blank if you wish to exclude it from your feed."
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:128
+msgid "Twitter Hashtag (excluding '#'):"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:132
+msgid "Twitter Username (excluding '@'):"
+msgstr ""
+
+#: ../lib/livetweets/livetweets.php:136
+msgid "Update Rate (in seconds):"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:5
+msgid "Sidebar Advertisement Image"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:6
+msgid "Upload the image for this advertisement. It is displayed to the right of the tabbed pages. <br /><br /><small>(300px x 250px)</small>"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:13
+msgid "Sidebar Advertisement Adsense Code"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:14
+#: ../theme-options/advertisements_6.php:35
+#: ../theme-options/advertisements_6.php:56
+#: ../theme-options/advertisements_6.php:77
+msgid "Enter the adsense code for this advertisement."
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:19
+msgid "Sidebar Advertisement Destination"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:20
+msgid "Specify the destination URL for the sidebar advertisement."
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:26
+msgid "Footer Advertisement #1 Image"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:27
+#: ../theme-options/advertisements_6.php:48
+#: ../theme-options/advertisements_6.php:69
+msgid "Upload the image for this advertisement. It will be displayed below the content. <br /><br /><small>(300px x 150px)</small>"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:34
+msgid "Footer Advertisement #1 Adsense Code"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:40
+msgid "Footer Advertisement #1 Destination"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:41
+#: ../theme-options/advertisements_6.php:62
+#: ../theme-options/advertisements_6.php:83
+msgid "Specify the destination URL for this advertisement."
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:47
+msgid "Footer Advertisement #2 Image"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:55
+msgid "Footer Advertisement #2 Adsense Code"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:61
+msgid "Footer Advertisement #2 Destination"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:68
+msgid "Footer Advertisement #3 Image"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:76
+msgid "Footer Advertisement #3 Adsense Code"
+msgstr ""
+
+#: ../theme-options/advertisements_6.php:82
+msgid "Footer Advertisement #3 Destination"
+msgstr ""
+
+#: ../theme-options/analytics-and-rss_7.php:6
+msgid "Enter the address of your blog's RSS feed (such as FeedBurner)."
+msgstr ""
+
+#: ../theme-options/analytics-and-rss_7.php:11
+msgid "Google Tracking Code"
+msgstr ""
+
+#: ../theme-options/analytics-and-rss_7.php:12
+msgid "Paste your Google Tracking code here. Note that, this will be added to the <em>header</em> of your blog."
+msgstr ""
+
+#: ../theme-options/analytics-and-rss_7.php:17
+msgid "Other Tracking Code"
+msgstr ""
+
+#: ../theme-options/analytics-and-rss_7.php:18
+msgid "Paste your other analytics tracking code here. Note that, this will be added to the <em>footer</em> of your blog."
+msgstr ""
+
+#: ../theme-options/general_1.php:5
+msgid "Display blog title or custom logo?"
+msgstr ""
+
+#: ../theme-options/general_1.php:6
+msgid "Should the header show the configured title of your blog or the custom logo specified below?"
+msgstr ""
+
+#: ../theme-options/general_1.php:9
+msgid "Logo"
+msgstr ""
+
+#: ../theme-options/general_1.php:11
+msgid "Title"
+msgstr ""
+
+#: ../theme-options/general_1.php:15
+msgid "Custom Logo"
+msgstr ""
+
+#: ../theme-options/general_1.php:16
+msgid "Upload a logo for your event."
+msgstr ""
+
+#: ../theme-options/general_1.php:23
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../theme-options/general_1.php:24
+msgid "Upload a 16px x 16px PNG/JPG image."
+msgstr ""
+
+#: ../theme-options/general_1.php:31
+msgid "Tabbed Pages"
+msgstr ""
+
+#: ../theme-options/general_1.php:32
+msgid "Select the pages to include on the tabbed navigation of the homepage.<br><br><small>(Command/Control + Select to choose multiple)</small>"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:5
+msgid "Enable WordPress 3.0 Custom Menus?"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:6
+msgid "This will add the WordPress \"Menus\" link under the Appearance section in the navigation bar.<br /><br />Custom menu hierarchy / nesting is not supported. Only top-level menu items will be displayed."
+msgstr ""
+
+#: ../theme-options/navigation_3.php:9
+#: ../theme-options/navigation_3.php:33
+msgid "No"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:11
+#: ../theme-options/navigation_3.php:31
+msgid "Yes"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:15
+msgid "Exclude Pages From Navigation Menu"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:16
+msgid "Select the pages to exclude from your navigation menu. Excluding a top-level page excludes child pages.<br /><br /><small>(Command/Control + Select to choose multiple)</small>"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:21
+msgid "Exclude Categories From Navigation Menu"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:22
+msgid "Select the categories to exclude from your navigation menu. Excluding a top-level page excludes child categories.<br><br><small>(Command/Control + Select to choose multiple)</small>"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:27
+msgid "Display Footer Navigation"
+msgstr ""
+
+#: ../theme-options/navigation_3.php:28
+msgid "Show the navigation menu in the footer?"
+msgstr ""
+
+#: ../theme-options/photo-stream_5.php:5
+msgid "Enter Flickr User Name"
+msgstr ""
+
+#: ../theme-options/photo-stream_5.php:6
+msgid "Specify the user name to display a Flickr photo stream below the video. Delete the user name to hide the photo stream area."
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:5
+msgid "'Tweet This!' Text"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:6
+msgid "This is the auto-fill text that will be entered when users click the \"Tweet This!\" button."
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:13
+msgid "Social Network #1 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:14
+#: ../theme-options/social-networking_4.php:31
+#: ../theme-options/social-networking_4.php:48
+#: ../theme-options/social-networking_4.php:65
+#: ../theme-options/social-networking_4.php:82
+#: ../theme-options/social-networking_4.php:100
+msgid "Upload or select a social icon from the Live Theme gallery"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:21
+msgid "Social Network #1 Destination"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:22
+#: ../theme-options/social-networking_4.php:39
+#: ../theme-options/social-networking_4.php:56
+#: ../theme-options/social-networking_4.php:73
+#: ../theme-options/social-networking_4.php:90
+#: ../theme-options/social-networking_4.php:108
+msgid "Enter the URL for this social icon.<br /><br />The social network icon will only show if there is a destination entered."
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:30
+msgid "Social Network #2 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:38
+msgid "Social Network #2 Destination"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:47
+msgid "Social Network #3 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:55
+msgid "Social Network #3 Destination"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:64
+msgid "Social Network #4 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:72
+msgid "Social Network #4 Destination"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:81
+msgid "Social Network #5 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:89
+msgid "Social Network #5 Destination"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:99
+msgid "Social Network #6 Icon"
+msgstr ""
+
+#: ../theme-options/social-networking_4.php:107
+msgid "Social Network #6 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:5
+msgid "Video Embed Code"
+msgstr ""
+
+#: ../theme-options/video_2.php:6
+msgid "Enter the embed code for your video feed.<br /><br /><small>(640px x 360px)</small>"
+msgstr ""
+
+#: ../theme-options/video_2.php:11
+msgid "Display Video Bumpers Or Video Stream?"
+msgstr ""
+
+#: ../theme-options/video_2.php:12
+msgid "When configured for \"Video Stream,\" the bumpers will show until the Live Countdown widget expires and then the video stream will show.<br /><br />When configurated for \"Video Bumpers,\" the bumpers will be displayed unconditionally."
+msgstr ""
+
+#: ../theme-options/video_2.php:15
+msgid "Video Stream"
+msgstr ""
+
+#: ../theme-options/video_2.php:17
+msgid "Video Bumpers"
+msgstr ""
+
+#: ../theme-options/video_2.php:21
+msgid "Video Bumper #1 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:22
+#: ../theme-options/video_2.php:37
+#: ../theme-options/video_2.php:52
+#: ../theme-options/video_2.php:67
+#: ../theme-options/video_2.php:82
+#: ../theme-options/video_2.php:97
+#: ../theme-options/video_2.php:112
+#: ../theme-options/video_2.php:127
+msgid "Upload an image for this video bumper. <br /><br /><small>(640px x 360px)</small>"
+msgstr ""
+
+#: ../theme-options/video_2.php:29
+msgid "Video Bumper #1 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:30
+#: ../theme-options/video_2.php:45
+#: ../theme-options/video_2.php:60
+#: ../theme-options/video_2.php:75
+#: ../theme-options/video_2.php:90
+#: ../theme-options/video_2.php:105
+#: ../theme-options/video_2.php:120
+#: ../theme-options/video_2.php:135
+msgid "Specify the destination for this video bumper.<br /><br />The bumper will only show if there is a destination entered."
+msgstr ""
+
+#: ../theme-options/video_2.php:36
+msgid "Video Bumper #2 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:44
+msgid "Video Bumper #2 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:51
+msgid "Video Bumper #3 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:59
+msgid "Video Bumper #3 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:66
+msgid "Video Bumper #4 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:74
+msgid "Video Bumper #4 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:81
+msgid "Video Bumper #5 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:89
+msgid "Video Bumper #5 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:96
+msgid "Video Bumper #6 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:104
+msgid "Video Bumper #6 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:111
+msgid "Video Bumper #7 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:119
+msgid "Video Bumper #7 Destination"
+msgstr ""
+
+#: ../theme-options/video_2.php:126
+msgid "Video Bumper #8 Image"
+msgstr ""
+
+#: ../theme-options/video_2.php:134
+msgid "Video Bumper #8 Destination"
+msgstr ""
+

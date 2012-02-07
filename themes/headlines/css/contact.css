@@ -1,0 +1,19 @@
+#contact-page .screenReader { left: -9999px; position: absolute; top: -9999px; }
+#contact-page ol.forms{float:left;list-style:none;width:100%;margin:10px 0 0;}
+#contact-page ol.forms li{clear:both;float:left;margin-bottom:18px;position:relative;width:100%}
+#contact-page ol.forms label{cursor:pointer;display:block;float:left;font-weight:700;padding-right:20px;width:100px;}
+#contact-page ol.forms input,#contact-page ol.forms textarea{background:#fcfcfc;border:1px solid #e2e2e2;width:214px;padding:7px 10px;}
+#contact-page ol.forms input#sendCopy{border:none;}
+#contact-page ol.forms textarea{height:300px;width:400px;}
+#contact-page ol.forms li .error{font-size:12px;display:block;margin-left:120px;color:red;}
+#contact-page ol.forms li.textarea .error{display:block; margin-left:120px}
+#contact-page ol.forms li.screenReader{margin-bottom:0;}
+#contact-page ol.forms li.buttons .submit{margin: 15px 0 0 120px; background:#999 no-repeat; color:#fff; font:12px; border:none; padding:5px 8px; border:1px solid #777;}
+#contact-page ol.forms li.buttons .submit:hover{opacity:0.8; color:#fff; cursor:pointer;}
+#contact-page ol.forms li.buttons .submit:active{left:-1px;position:relative;top:-1px;}
+#contact-page ol.forms li.inline input{width:auto;margin-left:120px;}
+#contact-page ol.forms li.inline label{display:inline;float:none;width:auto;}
+#contact-page #contactForm ol.forms .inputError { border: 1px solid #EFDADA; }
+#contact-page p { padding:10px 0; margin-bottom:20px; line-height:20px; font-size:14px; }
+#contact-page p.error { background:#f6a6a6;border:1px solid #e76868;padding:10px; margin-bottom:20px; }
+#contact-page .thanks{background:#fafafa;border:1px solid #ddd;padding:10px 20px; margin-bottom:20px;}

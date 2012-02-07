@@ -1,0 +1,129 @@
+/*
+Theme Name: Serve Portland
+Description: Serveportland.org child theme, based on Chameleon by Elegant Themes
+Author: Allan White
+Template: Chameleon
+*/
+
+@import url("../Chameleon/style.css");
+
+/*#content{
+ 	background-color: rgba( 255, 255, 255, 0.7); 
+	background-color: white;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+*/
+#intro{
+	margin: 0 0 20px 0;
+	height: 380px;
+}
+#intro-video{
+	width: 620px;
+	float: left;
+}
+h2.featured-title{
+	padding: 0;
+	margin: 0;
+}
+
+.featured-description{
+	padding: 32px 28px 35px 35px;
+	height: auto;
+}
+
+.featured-description p{
+	font-size: 1.3em;
+	color: rgba( 255, 255, 255, 0.8);
+	line-height: 1.3em;
+}
+
+a.readmore{
+	color:#00B7F3; /*hot blue */
+	font-size: 18px;
+	height: 30px;
+}
+
+#quote{
+	height: 80px;
+	background: #fff url(http://serveportland.org/wp-content/themes/serveportland/images/quotemark.png) no-repeat 0 20px;
+	padding: 20px;
+}
+	#quoterotator{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1.8em;
+		font-family: "Times New Roman", Georgia, Times, serif;
+		line-height: 1.2em;
+	}
+	#quoteauthor{
+		font-size: 0.7em;
+		font-style: italic;
+		color: gray;
+		display: block;
+	}
+
+.et_pt_blogmeta{
+	font-family: sans-serif;
+	letter-spacing: 0.1em;
+}
+
+.page-content{  /* for making page content larger on page listings */
+	font-size: 1.2em;
+	line-height: 1.3em;
+	color: black;
+}
+	.page-content a{
+		color: #0083BA;
+	}
+	.page-content li, .page-content ol{
+		line-height: 1.4em;
+		margin-bottom: 0.7em;
+	}
+.b-action {
+	-moz-box-shadow: 2px 2px 6px -1px #00384a;
+	-webkit-box-shadow: 2px 2px 6px -1px #00384a;
+	box-shadow: 2px 2px 6px -1px #00384a;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1d779e), color-stop(1, #4ebee6) );
+	background:-moz-linear-gradient( center top, #1d779e 5%, #4ebee6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d779e', endColorstr='#4ebee6');
+	background-color:#1d779e;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #005f85;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:1px 1px 3px #001d29;
+	margin: 6px 10px 10px 0;
+}
+.b-action:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ebee6), color-stop(1, #1d779e) );
+	background:-moz-linear-gradient( center top, #4ebee6 5%, #1d779e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebee6', endColorstr='#1d779e');
+	background-color:#4ebee6;
+	text-decoration: none;
+}.b-action:active {
+	position:relative;
+	top:1px;
+}
+
+.widget_pages ul li{
+	background: none;
+	font-size: 1.2em;
+	padding-left: 0;
+}
+	.widget_pages ul li a{
+		color: #1084B5;
+		font-weight: bold;
+	}
+	.widget_pages .current_page_item a{
+		color: #00B3FF !important;
+		font-weight: bold;
+	}

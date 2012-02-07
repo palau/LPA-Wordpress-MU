@@ -1,0 +1,77 @@
+/* custom css - palau.tv */
+
+/* Top Content Area */
+#main { background: #fff; padding: 0 0 30px; margin: 0 0 30px;}
+#main-top { background: url(images/trans-rep.png); padding: 10px 10px 20px 10px; margin-bottom: 30px;}
+#main-top.fullwidth {width: 980px;}
+#main-video { background: url(images/video-bg-shadow.png) no-repeat; width: 650px; padding: 10px 0 10px 10px; }
+#livetheme-online-container { display: none; background: #000; width: 650px; }
+
+#footer {margin-top: 30px;}
+
+.post .title {margin-left: 0; margin-bottom: 10px; margin-right: 0; margin-top: 0; letter-spacing: 0.07em; font-style: normal; font-weight: normal; font-family: sans-serif, sans-serif, "Helvetica Neue"; width: 100%; position: relative; padding: 0; color: #000; font-size: 32px; text-transform: uppercase; }
+
+.col-left-body{
+	float: left;
+	width: 620px;
+	/* clear: right; */
+}
+.col-right-body{
+	float: right;
+	text-align: left;
+	width: 300px;
+	margin: 0 20px 0 30px;
+}
+
+.post {width:640px;}
+{
+	text-transform: none !important;
+} 
+h2, h3{
+	font-family: "ClarendonLTStdRoman", Georgia, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	letter-spacing: 0;
+	line-height: 1em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+h2{
+	font-size: 44px;
+	color: #562753;
+}
+.col-right h2{
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	color:white;
+}
+h3{
+	font-size: 30px;
+	color: #917E8F;
+	padding: 0.5em 0 0.3em 0;
+}
+.btn-med{
+	cursor: pointer;
+	width: 150px;
+	text-decoration:none;
+	border: 1px solid rgb(153, 153, 153);
+	padding: 10px 10px 10px 10px;
+	color:rgb(0, 0, 0);
+	font-size:14px;
+	font-family: "ClarendonLTStdRoman", Helvetica, Arial, serif;
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	font-size: 14px;
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(238, 238, 238), rgb(204, 204, 204));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(238, 238, 238)), to(rgb(204, 204, 204)));
+	background-image:-moz-linear-gradient(-90deg, rgb(238, 238, 238), rgb(204, 204, 204));
+	text-align: center;
+}
+.btn-med a{
+	color:black;
+	text-decoration: none;
+}

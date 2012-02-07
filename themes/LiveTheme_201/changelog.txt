@@ -1,0 +1,57 @@
+/*
+===================================================================================
+Live Theme Changelog
+===================================================================================
+*/
+
+/*
+==============================================================
+Version 2.0.1 - 2011.08.29
+==============================================================
+*/
+
+*	Improving Live Countdown's automatic time zone configuration setting
+*	IE8 Fix for Live Countdown display
+
+/*
+==============================================================
+Version 2.0 - 2011.08.04
+==============================================================
+*/
+
+*  Disable invalid date options in the countdown widget
+*  Added support for Leap Years in the countdown widget
+*  Added option for custom styles
+*  Fixed Twitter widget status link
+*  Added option to Twitter widget to display event hashtag
+*  Countdown timer no longer flashes when 0'd out
+*  Added theme meta description
+*  Improved Video Bumper verbiage
+*  Featured tabs now fully driven by custom menus
+*  Removed menu items related to deprecated WordPress functionality
+*  Ability to disable bumpers
+*  Links no longer required for bumpers
+*  Introduced a single video bumper
+*  removing support for anything except custom menus
+*  adding safe mode for flickr
+*  added an option to customize the title of the third tab
+*  introduced the ability to specify the duration of the bumpers
+*  Live Countdown widget localization
+*  Removed the Import/Export option from the admin menu
+*  Upgraded the "Tweet This Out" functionality to use Twitter's new share button implementation
+*  Added documentation link to admin panel
+*  Removed link to "Live Theme Home" in admin panel
+*  Fixed a typo in the Video Stream / Video Bumper option description
+*  Removed the sitemap stylesheet
+*  Updated theme version in stylesheet
+*  Added a default text to the video bumpers so they rotate even if no URL is specified
+*  Added the affiliate code functionality to the footer
+*  Added a custom.css file
+
+/*
+==============================================================
+Version 1.0 - 2010.11.11
+==============================================================
+*/
+
+*  Initial release

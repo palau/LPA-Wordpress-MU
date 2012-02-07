@@ -1,0 +1,257 @@
+/*
+===================================================================================
+Attributions
+===================================================================================
+*/
+
+*  Social icons are from Komodo Media: http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/
+
+
+/*
+===================================================================================
+Standard Theme Releases
+===================================================================================
+*/
+
+/*
+==============================================================
+Version 2.6.1 - 2011.04.11
+==============================================================
+*/
+
+*  Patching an issue with the Follower Count's FeedBurner functionality
+*  Updating H1/H2 Tags in the new loop files
+*  Upgrading the jQuery 1.5.2
+*  Updated header.php to control the h1/h2 of the site title based on post formats
+*  Fixed .aligncenter bug
+
+/*
+==============================================================
+Version 2.6.0 - 2011.03.22
+==============================================================
+*/
+
+*  Added an <h2> tag around header image for improved SEO.	
+*  Improved Follower Count UI.
+*  Improved behavior of meta descriptions for improved SEO (150 character max length).
+*  Added support for WordPress 3.1 Post Formats (Standard, Aside, Video, Image, Link, and Quote).
+*  Added default files to initially empty directories to combat fresh installation problems.
+*  Improved error messaging in the admin functions file.
+*  Specified default attributes for social icons.
+*  Removed Delicious from the sharing options.
+*  Added an ID to post entries and contents for better Evernote compatibility.
+*  Style improvements for consistency between H1's and H2's.
+*  Adding unique ID's to the element containing no comments.
+*  Upgrading to jQuery 1.5.1.
+*  Minor modifications to generating breadcrumbs.
+*  Improved markup for breadcrumbs.
+*  Updating the Community Forum link.
+*  Minor modification to the Navigation Walker to make it easy to highlight active categories via CSS.
+*  Added tiling for new post formats.
+*  Added icons for post formats.
+*  Added a link icon for post format permalinks.
+*  Fixed long, non-breaking breadcrumbs not wrapping.
+*  Fixed minor typo for social icons
+*  Addressed a position issue of social sharers with IE7
+
+*  Related files...
+   o  /admin/home.php
+      o  /admin/functions.php
+   o  /images/icn_aside.png
+   o  /images/icn_image.png
+   o  /images/icn_link.png
+   o  /images/icn_permalink.png
+   o  /images/icn_quote.png
+   o  /images/icn_video.png
+	 o  /lang/standardtheme2.po
+   o  /lang/standardtheme2.mo
+   o  /lib/standardtheme.php
+   o  /lib/followcount.php
+   o  /lib/socialnetworking.php
+   o  /lib/standard_yoast_breadcrumbs.php
+   o  /lib/standard_theme_nav_walker.php
+   o  /theme-options/sharing-options_7.php
+	 o  archive.php
+   o  index.php
+   o  loop.php
+   o  loop-aside.php
+   o  loop-image.php
+   o  loop-link.php
+   o  loop-quote.php
+   o  loop-video.php
+	 o  single.php
+   o  style.css
+
+/*
+==============================================================
+Version 2.5.4 - 2011.02.09
+==============================================================
+*/
+
+*  Navigation breadcrumb patched to stop repeating duplicate categories.
+*  Improvements to meta description.
+*  Added support for superscripts and subscripts in style.css.
+*  Stylistic improvements to archive page header
+*  Removed a duplicate meta generator tag to only include the theme and the current version.
+*  Updated the Theme Upgrade menu to handle new version scheming
+*  Long text properly wraps in post titles and comment titles in Safari and Chrome.
+*  Fixed some examples in the Sharing Options that were missing the ":" in "http://".
+*  Removed WordPress meta generator tag
+*  Properly aligned sharer options when sidebar is on the left
+*  Updated calls to the register widget functions to use the new wp_register_sidebar_widget function
+*  Fixed sharer position in IE7
+*  No longer showing thumbnails in RSS feeds
+*  Removing some licensing info from the Follower Count plugin until ready for independent release.
+*  Updates to the page navigation functionality
+*  Improved Theme Update mechanism
+*  Including "Standard Theme" prefix to the Personal Image widget
+*  Minor improvement to the page navigation code
+*  Commented out suggested styles in the custom.css so not to conflict with child themes.
+*  Added new advertising images
+
+
+/*
+==============================================================
+Version 2.5.3 - 2011.02.01
+==============================================================
+*/
+
+*  Moved the word-wrap property from style.css into css3.css.
+
+
+/*
+==============================================================
+Version 2.5.2 - 2011.01.23
+==============================================================
+*/
+
+*  Patched a problem with the post thumbnail and meta description.
+*  Solved a style issue with IE and the floating sharers.
+
+
+/*
+==============================================================
+Version 2.5.1 - 2011.01.22
+==============================================================
+*/
+
+*  Unordered List / Ordered List fix for entry lists.
+*  Sharer styles fixed for IE.
+
+
+/*
+==============================================================
+Version 2.5 - 2011.01.21
+==============================================================
+*/
+
+*  The author box now links Twitter, Facebook, and Blog URL to the information specified in the user's WordPress profile. The links will not display if no information has been added.
+*  The Flickr plug-in has been removed.
+*  Improvements to Follower Count's caching.
+*  Added a framework option for hiding the navigation in the footer.
+*  Breadcrumbs are now contained in an unordered list for easier, more customizable styling.
+*  Removed TweetMeme and replace with official Twitter button.
+*  Changed the order of which css3.css and custom.css are imported, allowing custom.css to override css3.css.
+*  Removed self-hosted jQuery Option.
+*  Localization improvements.
+*  Advertisements now open in a blank window.
+*  Modified the Standard Theme link in the footer to use affiliate link or link to http://standardtheme.com.
+*  Added support for three WordPress 3.0 custom menus.
+*  Updated the WordPress 3.0 custom menu functionality so that it doesn't display home link for each menu.
+*  "Continue Reading..." persists through the search.php and archive.php pages.
+*  Page Navigation localization.
+*  Added ID's to the footer and header elements.
+*  Removed PHP short tags.
+*  Equally spaced copyright, pipe, and "Powered by" in footer.
+*  Added spaces after commas in post_meta for easier readability.
+*  Added break-word to entry content and comments.
+*  Added body_class() to the opening body tag.
+*  Added post_class() to the post <div> tag.
+*  Removed superfish.js.
+*  Removed pngfix.js.
+*  Upgraded to jQuery 1.4.4.
+*  Added a meta description to pages and posts. Pages get the blog subtitle, posts get the excerpt.
+*  Added CSS3 styling to the trackback / pingback container.
+*  Removed links to header tags in the single and post pages.
+*  Updated the framework functions to properly register jQuery if it isn't already included.
+*  Using our own "no conflict" version of jQuery to combat compatibility issues with other plugins.
+*  Gave content a <span> tag with an id for easy Evernote clipping.
+*  Added "Display Website Link?" option to Author Box Settings.
+*  Changed "Personal Blog" to "Website" in author box.
+*  Updated the Follower Count widget to a new version. Now includes the ability to reset the cache.
+*  Updated the Theme Version detection for those whose server's don't handle it.
+*  Updated advertisements so that if no link is provided, no default link is used.
+*  Localized the comment "Reply" link.
+*  Changed entry list items to use bullets instead of letters.
+*  Updated custom.css and style.css to note updating the custom.css, not copying the entire stylesheet.
+*  Added a link to the new documentation in the admin panel
+*  Updated admin panel links to open targets in new window
+*  Fixed Facebook Sharer generating incorrect URLs.
+*  Fixed a bug that was displaying the 404 message multiple times on the page instead of once.
+*  Fixed a bug with tag archive headers displaying improperly.
+*  Fixed a bug that only shows trackbacks if comments exist.
+*  Fixed ads-125x125_8.php to use "Image" and "Destination".
+*  Fixed footer navigation bleeding into footer "powered by" area when list is long.
+*  Fixed "Share This" popup not floating with the sharing buttons.
+*  Fixed problem with Yoast Breadcrumbs when images are linked to their post (not the raw file).
+*  Fixed a bug that allowed right-aligned images to exceed the length of the content.
+*  Fixed issue with broken images in the admin panel with child themes.
+
+
+/*
+==============================================================
+Version 2.0 - 2010.07.29
+==============================================================
+*/
+
+*  Started implementing Standard Framework.
+*  Completely overhauled the admin panel.
+*  Added options to change the location of navigation, header, and sidebar.
+*  Added "Framework Options".
+*  Added support for WordPress 3.0 custom background images and colors and custom menus.
+*  Added Follower Count widget.
+*  Added "Theme Updates" panel.
+*  Added "Import / Export" panel.
+*  Added CSS3 flare with the ability to disable it.
+*  Slight UI refresh.
+
+
+/*
+==============================================================
+Version 1.1.1 - 2010.06.18
+==============================================================
+*/
+
+*  Added WordPress 3.0 Compatibility
+*  Added post thumbnail support.
+*  Fixed a problem with the yoast breadcrumb plugin so that the opening tag is not a short tag.
+
+
+/*
+==============================================================
+Version 1.1 - 2010.05.04
+==============================================================
+*/
+
+*  Ajaxified Gravatar icon.
+*  Select categories in navigation.
+*  Added "Edit This" link for posts and pages when an admin user is logged in.
+*  Sidebar widget CSS improvements.
+*  Added "Add This" global sharer.
+*  Default to blog text title and description if a header image isn't specified.
+*  TweetMeme uses Twitter username (if specified; otherwise, uses @standardtheme).
+*  "Comment Codes" now properly toggles.
+*  Now hiding sharer border if now sharers are toggled.
+*  Improved localization by including more strings for translation.
+*  Now checks before using WP Page Navi.
+*  Fixed some IE7 styles.
+
+
+/*
+==============================================================
+Version 1.0 - 2010.02.01
+==============================================================
+*/
+
+*  Initial release.
+

@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Countdown 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-28 16:16-0500\n"
+"PO-Revision-Date: 2010-08-28 16:17-0500\n"
+"Last-Translator: \n"
+"Language-Team: Standard Theme <info@standardtheme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../livecountdown.php:37
+msgid "Displays a countdown in days, hours, minutes, and seconds based on the specified date."
+msgstr ""
+
+#: ../livecountdown.php:68
+msgid " Days"
+msgstr ""
+
+#: ../livecountdown.php:72
+msgid " Hours"
+msgstr ""
+
+#: ../livecountdown.php:76
+msgid " Minutes"
+msgstr ""
+
+#: ../livecountdown.php:80
+msgid " Seconds"
+msgstr ""
+
+#: ../livecountdown.php:138
+msgid "Date"
+msgstr ""
+
+#: ../livecountdown.php:164
+msgid "Time"
+msgstr ""
+
+#: ../livecountdown.php:188
+msgid "AM"
+msgstr ""
+
+#: ../livecountdown.php:191
+msgid "PM"
+msgstr ""
+

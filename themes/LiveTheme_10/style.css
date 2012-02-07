@@ -1,0 +1,15 @@
+/*  
+Theme Name: Live Theme
+Version: 1.0
+Description: A premium WordPress theme for streaming video and live events. You bring the stream and embed code, we'll bring the rest. A built-in bumper carousel is included that rotates through your cross-promotional banners and then fades away when your event goes live. Custom, integrated plugins for twitter and facebook. Tastefully located advertisement and additional promotional areas will leave the focus on your video stream. The photo stream is perfect for run-and-gun photography of your event and the tabbed page area won't interrupt the stream by causing a page refresh. Yes, we've done this before.
+Author: The 8BIT Team
+Author URI: http://livetheme.tv
+*/
+
+/* ********************************************** */
+/* Default Styles and Hyperlinks */
+/* ********************************************** */
+
+@import "css/reset.css";
+@import url(livetheme-default.css);
+@import url(custom.css);

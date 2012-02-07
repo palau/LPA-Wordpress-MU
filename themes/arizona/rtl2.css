@@ -1,0 +1,15 @@
+img.alignright {
+	margin: 0 7px 2px 0;
+}
+
+img.alignleft {
+	margin: 0 0 2px 7px;
+}
+
+.alignright {
+	float: left;
+}
+
+.alignleft {
+	float: right;
+}
