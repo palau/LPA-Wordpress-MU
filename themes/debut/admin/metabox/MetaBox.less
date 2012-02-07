@@ -1,0 +1,140 @@
+//	General
+//-----------------------------------------------------------------------------------//
+
+.ti-metabox {
+
+	// Fluid 
+	.w25 { width: 25% !important }
+	.w33 { width: 33.33% !important }
+	.w50 { width: 50% !important }
+	.w66 { width: 66.66% !important }
+	.w75 { width: 75% !important }
+	.w100 { width: 100% !important }
+	
+	.f25 { width: 25px !important }
+	.f33 { width: 33px !important }
+	.f50 { width: 50px !important }
+	.f67 { width: 67px !important }
+	.f75 { width: 75px !important }
+	.f100 { width: 100px !important }
+
+
+	// Helpers
+	.left { float: left }
+	.right { float: right }
+	.textright { text-align: right }
+	.deletion {
+		color: red;
+		border-bottom: 1px solid red;
+		text-decoration: none;
+		padding: 1px 2px;
+		
+		&:hover {
+			color: #fff;
+			background: red;
+		}
+	}
+	
+	
+	// Form Elements
+	textarea, input[type='text'] {
+		margin: 6px 0 8px;
+		width:98%
+	}
+	
+	label {
+		font-weight: bold;
+		
+		span {
+			font-weight: normal;
+			font-size: 12px;
+			color: #999;
+		}
+	}
+	
+	
+	// Tables
+	table {
+		width: 100%;
+	}
+	
+	.thead {
+		background: #fff
+	}
+	
+	th, td {
+		vertical-align: top;
+	}
+	
+	th { 
+		text-align: left;
+		font-weight: bold;
+	}
+	
+	
+	// Tabs
+	ul.metabox-tabs {
+		display: none;
+		margin-top: 12px;
+		margin-bottom: 3px;
+		
+		li {
+			display: inline;
+			padding: 5px;
+			-moz-border-radius: 3px 3px 0 0;
+			-webkit-border-top-left-radius: 3px;
+			-webkit-border-top-right-radius: 3px;
+			-khtml-border-top-left-radius: 3px;
+			-khtml-border-top-right-radius: 3px;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			
+			&.active {
+				border-style: solid solid none;
+				border-width: 1px 1px 0;
+				background-color: #f1f1f1;
+				border-color: #dfdfdf;
+				
+				a {
+					color: #333;
+				}
+			}
+		}
+		
+		a {
+			text-decoration: none;
+		}
+	}
+	
+	.metabox-tabs-div ul {
+		list-style: none;
+		
+		div.tabs-panel {
+			overflow: auto;
+			padding: 0.5em 0.9em;
+			border-style: solid;
+			border-width: 1px;
+		}
+	}
+
+	.heading {
+		padding-left:10px;
+	}
+	
+	.tab-content{
+		overflow: auto;
+		padding: 0.5em 0.9em;
+		border-style: solid;
+		border-width: 1px;
+	}
+	
+	div.tab-content {
+		border-color: #DFDFDF;
+	}
+}
+
+* html .clearfix { height: 1% }
+
+
+
+

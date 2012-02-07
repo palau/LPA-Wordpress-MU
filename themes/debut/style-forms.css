@@ -1,0 +1,187 @@
+body form, body .gform_wrapper {
+  margin: 0;
+}
+body form ul, body .gform_wrapper ul {
+  margin: 0;
+  list-style: none;
+}
+body form textarea,
+body .gform_wrapper textarea,
+body form input[type=text],
+body .gform_wrapper input[type=text],
+body form input[type=url],
+body .gform_wrapper input[type=url],
+body form input[type=email],
+body .gform_wrapper input[type=email],
+body form input[type=phone],
+body .gform_wrapper input[type=phone],
+body form input[type=number],
+body .gform_wrapper input[type=number],
+body form input[type=file],
+body .gform_wrapper input[type=file],
+body form input[type=password],
+body .gform_wrapper input[type=password] {
+  font-size: 14px;
+  color: #2d2d2d;
+  padding: 8px 10px;
+  outline: none;
+  border: 1px solid #e3e3e3;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+body form textarea:hover,
+body .gform_wrapper textarea:hover,
+body form input[type=text]:hover,
+body .gform_wrapper input[type=text]:hover,
+body form input[type=url]:hover,
+body .gform_wrapper input[type=url]:hover,
+body form input[type=email]:hover,
+body .gform_wrapper input[type=email]:hover,
+body form input[type=phone]:hover,
+body .gform_wrapper input[type=phone]:hover,
+body form input[type=number]:hover,
+body .gform_wrapper input[type=number]:hover,
+body form input[type=file]:hover,
+body .gform_wrapper input[type=file]:hover,
+body form input[type=password]:hover,
+body .gform_wrapper input[type=password]:hover {
+  -webkit-box-shadow: 0 0 15px 0 #c8c8c8;
+  -moz-box-shadow: 0 0 15px 0 #c8c8c8;
+  box-shadow: 0 0 15px 0 #c8c8c8;
+}
+body form input[type=submit]:hover, body .gform_wrapper input[type=submit]:hover {
+  color: #fff !important;
+  background: #2d2d2d url(images/background-dark.png);
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+}
+body form input,
+body .gform_wrapper input,
+body form textarea,
+body .gform_wrapper textarea {
+  border: 1px solid #e3e3e3;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body form select, body .gform_wrapper select {
+  height: 35px;
+  font-size: 16px;
+}
+body form .gform_fields,
+body .gform_wrapper .gform_fields,
+body form .gfield,
+body .gform_wrapper .gfield,
+body form .ginput_complex,
+body .gform_wrapper .ginput_complex,
+body form .ginput_left,
+body .gform_wrapper .ginput_left,
+body form .ginput_right,
+body .gform_wrapper .ginput_right,
+body form .ginput_full,
+body .gform_wrapper .ginput_full {
+  overflow: visible !important;
+}
+body form .gfield_time_hour input,
+body .gform_wrapper .gfield_time_hour input,
+body form .gfield_time_minute input,
+body .gform_wrapper .gfield_time_minute input,
+body form .gfield_date_month input,
+body .gform_wrapper .gfield_date_month input,
+body form .gfield_date_day input,
+body .gform_wrapper .gfield_date_day input,
+body form .gfield_date_year input,
+body .gform_wrapper .gfield_date_year input {
+  width: 50% !important;
+}
+body form .ginput_complex .ginput_left,
+body .gform_wrapper .ginput_complex .ginput_left,
+body form .ginput_complex .ginput_right,
+body .gform_wrapper .ginput_complex .ginput_right {
+  width: 48%;
+}
+body form .ginput_complex .ginput_left, body .gform_wrapper .ginput_complex .ginput_left {
+  clear: both;
+}
+body form .gfield_label, body .gform_wrapper .gfield_label {
+  color: #333333;
+  font-weight: bold;
+  line-height: 2;
+}
+body form .gfield, body .gform_wrapper .gfield {
+  padding: 8px 0;
+}
+body form .gfield_description,
+body .gform_wrapper .gfield_description,
+body form .validation_message,
+body .gform_wrapper .validation_message {
+  font-size: 12px;
+  font-style: italic;
+}
+body form .gfield_error, body .gform_wrapper .gfield_error {
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body form .button,
+body .gform_wrapper .button,
+body form .gform_edit_link a,
+body .gform_wrapper .gform_edit_link a {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 15px;
+  margin-right: 10px !important;
+  color: #f5f5f5;
+  font-weight: bold;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+  border: none;
+  background: #2d2d2d url(images/background-dark.png);
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body form .button:hover,
+body .gform_wrapper .button:hover,
+body form .gform_edit_link a:hover,
+body .gform_wrapper .gform_edit_link a:hover {
+  color: #fff !important;
+  background: #2d2d2d url(images/background-dark.png);
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+}
+body form .gform_edit_link, body .gform_wrapper .gform_edit_link {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+body form .gform_edit_link a, body .gform_wrapper .gform_edit_link a {
+  font-size: 14px;
+  border-bottom: none !important;
+}
+body form .gform_page_footer, body .gform_wrapper .gform_page_footer {
+  width: auto;
+}
+body form .gform_footer, body .gform_wrapper .gform_footer {
+  overflow: hidden;
+}

@@ -1,0 +1,169 @@
+Version 3.3.6 (1.31.2011)
+UPDATED options.php to print styles for the Options Framework 1.0. Something changed in the plugin where the custom styles were not being printed, making the theme options difficult to read.
+
+
+Version 3.3.5 (12.12.2011)
+Updated: Changed the hook the scripts and styles were called on to wp_enqueue_scripts() per http://wpdevel.wordpress.com/2011/12/12/use-wp_enqueue_scripts-not-wp_print_styles-to-enqueue-scripts-and-styles-for-the-frontend/
+
+Version 3.3.4
+FIXED: small css bug where custom bg wasn't showing on date archive pages
+
+Version 3.3.3
+UPDATED: light-on-dark background to allow for texture image by setting bg color to background-color instead of just background (style.css)
+
+Version 3.3.2 (10.28.2011)
+UPDATED: ti_has_sidebar() to set template-center.php to false
+FIXED: Home Options, Featured Categories select box was causing warning with translated installs of WP
+ADDED: File version caching for debug mode
+
+
+Version 3.3.1 (10.20.2011)
+UPDATED: Updated Delicious link in footer
+UPDATED: fixed typo to ti_video_player script name
+UPDATED: Removed Additional Link text from the Help tab of the Hero Option meta box
+UPDATED: Updated theme admin setup function name
+UPDATED: Updted default content width var to 550 from 560
+UPDATED: Removed straggly forms.css file from theme root
+UPDATED: Removed extra options/options-*.php files (video and help)
+UPDATED: Disabled instant view modal box from printing to the page if instant view not enabled.
+
+
+Version 3.3 (10.19.2011)
+UPDATED: Video code to echo/return out custom embed for ti_get_media()
+UDPATED: Allow parameters (e.g. autoplay=1) for YouTube and Vimeo by passing parameters in the url. Also added functionality to prevent autoplay on certain pages to avoid multiple videos playing at once.
+
+Version 3.2 (10.19.2011)
+UPDATED: cleaned code in places.
+UPDATED: Changed prefixes from c7s_ to ti_
+UPDATED: Video player script
+UPDATED: Comments styles and formatting to something a little more simple and clean.
+ADDED: license.txt
+REMOVED: ti_get_page_links() and replaced with wp_link_pages()
+REMOVED: Responsive design option was removed, it is now a default.
+REMOVED: Additional Links option from hero metabox.
+REMOVED: Feature section link and title. 
+FILES ADDED: jquery.heroslider.js, jquery.navigation.js
+FILES REMOVED: jquery.easing.js, jquery.cycle.all.js, jquery.superfish.js
+FILES RENAMED: loop-*.php to content-*.php
+
+
+Version 3.1 (9.6.2011)
+ADDED: Support for the Social Bartender plugin (footer.php, options/options-thank-you.php, style.css)
+UPDATED: Flickr and Twitter widgets updated to use urlencode() (admin/widgets/tweets.php, admin/widgets/flikr.php)
+UPDATED: Hero slider now pauses on hover like it once did (functions.php)
+REMOVED: Humans text icon info (footer.php)
+
+Version 3.0 (9.6.2011)
+ADDED: Video Options (options/options-video.php)
+ADDED: Post Meta Options (options/options-general.php)
+ADDED: Responsive Layout Design (style.css, css/responsive.css, options/options-general.php)
+UPDATED: Video Embed function updated to support YouTube and Vimeo API's (functions.php)
+UPDATED: Thumbnail and media output code cleaned up a bit (includes/entry-thumbnail.php)
+REMOVED: Gravatar, Favicon, and Apple-touch icons options. Use a plugin for this functionality. (header.php, admin.php, options/options-logo.php)
+REMOVED: Custom WP Title function removed. I'll leave this up to an SEO plugin, like WordPress SEO. I think this will be modified in the future anyway (functions.php)
+REMOVED: Login logo options have been removed. I'll leave this up to a plugin so when WordPress updates again and the login page changes, the plugin can update the theme. (options/options-logo.php)
+UPDATED: A bunch of other files and code… to many to list.
+
+
+Version 2.8.2 ()
+UPDATED: flickr, video, and twitter widgets (admin/widgets/*)
+
+Version 2.8.1 ()
+UPDATED: escaped text on the Hero slides additional links elements (loop-hero.php)
+UPDATED: Options Framework Admin notices updated with a "Hide Notice" option (admin.php)
+REMOVED: handheld.css (functions.php, css/handheld.css)
+
+Version 2.8 (7.30.2011)(WP.com submission)
+NEW: added has_media_embed() to check for media embed (function.php)
+UPDATED: updated $media_embed checks to use has_media_embed() (includes/entry-thumbnail.php)
+UPDATED: Fixed typo in embed snippet name (admin/tinymce/tinymce-editor-plugin.js)
+UPDATED: Moved $is_page variable to tops of pages above get_header() so it could be used in c7s_has_sidebar() check in functions.php (temoplate-*.php, home.php)
+FIXED: Issue with page excerpt on custom post page page templates. Removed metabox from showing on those pages. (template-post-page, admin/theme-metabox.php)
+FIXED: Full width pages post-thumbnails and media embeds were being effected by c7s_has_sidebar() in functions.php. Added checks for $is_page in that function.
+
+Version 2.7 (7.21.2011)
+NEW: added a check for sidebars on pages to determine full width automatically (page.php, single.php, index.php, template-post-gallery.php, template-post-page.php, styles.css/less)
+UPDATED: added check to display the correct tag for an entry thumbnail (includes/entry-thumbnail.php)
+UPDATED: moved all functions folder files to admin folder file (functions/*)
+UPDATED: moved all functions inside theme-helpers.php to functions.php and admin.php (functions.php, admin.php)
+UPDATED: moved threaded comments check and enqueue to functions.php (header.php, functions.php)
+UPDATED: Changed class "inline" to "fancybox" for instant view options. This allows for Cleaner Gallery Plugin to use FancyBox to display gallery images as well. (includes/entry-thumbnail.php, js/fancybox/jquery.fancybox.php)
+UPDATED: Allowed for full width logo to be inserted and top nav still be at top (header.php)
+UPDATED: media embed was doubled up on the "types" options (functions/theme-metabox.php)
+FIXED: the option to enable page navigation for the post thumbnails. A misspelled word "featured" in the c7s_get_option() function (loop-featured.php)
+FIXED: removed an s on the word "forms" in the forms.css/less (less/forms.less, css/forms.css)
+REMOVED: Google Maps and Email shortcodes (admin/tinymce/tinymce-shortcodes.php)
+
+Version 2.6 (7.7.2011)
+NEW: Added ZURB Reveal Modal Box for instant view. Previous issues with prettyPhoto styles in browsers. This solution is simpler, cleaner, and easier to modify. (funtions.php, js/jquery.reveal.js, style.css/less)
+NEW: Added new filter function, c7s_reveal_modal(), to show Reveal Modal Box (functions.php, loop-featured.php, loop.php)
+NEW: Custom Post Gallery page template (template-post-gallery.php, styles.css/less)
+NEW: Added function for $allowedtags for Options Framework Info boxes. This was done for the new options-help.php file (options.php)
+NEW: Added dummy content file (dummy-content.xml)
+UPDATED: all option files have been updated to adjust for the new layout style of Options Framework (options/options-*.php)
+UPDATED: added additional CSS styles for Options Framework Plugin (options.php)
+UPDATED: c7s_localize_script() updated to not include prettyPhoto options
+UPDATED: prettyPhoto option were removed from javascript (js/script.js)
+UPDATED: added "data" attributes to links to allow for new Reveal Modal box (includes/entry-thumbnail.php)
+UPDATED: adjusted top nav borders to use rgba transparency values (style.css/less)
+UPDATED: Hero prev and next buttons rotate when animation option is set to a vertical setting
+REMOVED: prettyPhoto modal box files and options (functions.php, js/script.js, options/options-instant-view.php)
+REMOVED: flush() is gone as it was not really needed. (header.php, options/options-general.php)
+
+Version 2.5 (6.26.2011)
+UPDATED: PrettyPhoto js file updated to fix Firefox issue. (js/prettyPhoto/prettyPhoto.js)
+UPDATED: Styles for single post entry thumbnails (style.css)
+
+Version 2.4 (6.21.2011)
+NEW: Added the ability to upload a custom background image for the hero area (functions/theme-metabox.php, functions/metabox/metabox-hero-options.php, loop-hero.php)
+NEW: Added option to show pagination for featured area on home page. Enable/disable through theme options (home.php, loop-featured.php, options/options-featured.php, style.css/less)
+NEW: Added option to disable the Posted On information (options/options-general.php, includes/entry-header.php)
+UPDATED: c7s_of_check_notice() to include user permissions check (functions.php)
+UPDATED: Updated theme to use WordPress's copy of jQuery instead of Google's (functions.php)
+UPDATED: c7s_localize_script() action to be done on wp_print_scripts instead of init (functions.php)
+UPDATED: c7s_localize_script() to escape data before passing to script.js (functions.php)
+UPDATED: c7s_login_head_logo() to escape the logo url (functions.php)
+UPDATED: c7s_posted_on() to escape urls, attributes, and html (functions.php)
+UPDATED: c7s_posted_in() to escape urls, attributes, and html (functions.php)
+UPDATED: Updated various functions in theme-helpers.php to escape urls, attributes, and html (functions/theme-helpers.php)
+UPDATED: options-theme-styles.php to remove admin notices (options/options-theme-styles.php)
+UPDATED: moved custom theme styles from header.php to functions.php (header.php, functions.php)
+UPDATED: Custom Post Page Template to actually use the categories chosen. Simple needed to print values from array. (template-post-page.php)
+UPDATED: Page Header was pulling in first category in array used by Custom Post Page. Added a check if custom-post-page.php is in use (includes/page-header.php)
+UPDATED: Entry thumbnails to show correct size for home.php, template-post-page.php, and template-full.php (includes/entry-thumbnail.php)
+UPDATED: prettyPhoto to allow for youtu.be embed URL's (js/prettyphoto/jquery.prettyPhoto.js)
+REMOVED: manage_media_custom_column() as it belongs in a plugin (functions/theme-helpers.php)
+REMOVED: c7s_user_contactmethods() as it wasn't used within this theme (functions/theme-helpers.php)
+REMOVED: Some options for the instant view were removed. This is do to having to pull the content in as inline content rather than a URL because of embed codes and url's not supported by prettyPhoto (functions.php, js/script.js, options/options-instant-view.php)
+
+Version 2.3 (6.07.2011)
+UPDATED: Updated CSS for custom post widget.
+UPDATED: of_get_options() to p75_get_options() to adjust for the slight Options Framework Plugin change and for the move to Press75.com.
+
+Version 2.2 (5.18.2011)
+UPDATED: checkbox options in all files because of change in updated version of the Options Framework 0.6.
+UPDATED: functions/metabox/metabox.css to better match new WordPress styles to be introduced in version 3.2
+UPDATED: functions/metabox/metabox-*.php files to use a table format
+NEW: functions/shortcodes/shortcodes-options.php and shortcodes-quicktags.php
+NEW: editor styles (editor-styles.css, functions.php)
+REMOVED: functions/shortcodes/shortcodes-layout.php, shortcodes-media.php, shortcodes-callouts.php and consolidated into shortcodes-options.php
+
+Version 2.1 (4.26.2011)
+UPDATED: loop-featued.php conditional statement to include  $of_featured_hide == 'false'. If options framework has not been installed, then posts shall show.
+NEW: WordPress $content_width variable (functions.php)
+NEW: c7s_setup() function to functions.php
+REMOVED: a duplicate conditional statement in includes/entry-thumbnail.php
+REMOVED: unnecessary STYLESHEET and TEMPLATEPATH calls in functions.php
+MOVED: theme options to accommodate for Debut PRO
+
+Version 2.0 (4.20.2011)
+NEW: Initial Release
+
+-- Terms --
+NEW: Something added
+FIXED: Something fixed because it was broke
+REMOVED: Something removed for one reason or another
+UPDATED: Something modified but has same or better result
+FILES ADDED: Files added to theme directory
+FILES REMOVED: Files removed from theme directory
+FILES RENAMED: Files in theme directory renamed to something else

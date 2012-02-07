@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------------------*/
+/*	CUSTOM: Media Embed
+/*-----------------------------------------------------------------------------------*/
+
+.ti-embed-preview object,
+.ti-embed-preview iframe,
+.ti-embed-preview embed { width: 258px !important; height: 145px !important }
+
+
+
+

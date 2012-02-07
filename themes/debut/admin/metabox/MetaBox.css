@@ -1,0 +1,132 @@
+.ti-metabox .w25 {
+  width: 25% !important;
+}
+.ti-metabox .w33 {
+  width: 33.33% !important;
+}
+.ti-metabox .w50 {
+  width: 50% !important;
+}
+.ti-metabox .w66 {
+  width: 66.66% !important;
+}
+.ti-metabox .w75 {
+  width: 75% !important;
+}
+.ti-metabox .w100 {
+  width: 100% !important;
+}
+.ti-metabox .f25 {
+  width: 25px !important;
+}
+.ti-metabox .f33 {
+  width: 33px !important;
+}
+.ti-metabox .f50 {
+  width: 50px !important;
+}
+.ti-metabox .f67 {
+  width: 67px !important;
+}
+.ti-metabox .f75 {
+  width: 75px !important;
+}
+.ti-metabox .f100 {
+  width: 100px !important;
+}
+.ti-metabox .left {
+  float: left;
+}
+.ti-metabox .right {
+  float: right;
+}
+.ti-metabox .textright {
+  text-align: right;
+}
+.ti-metabox .deletion {
+  color: red;
+  border-bottom: 1px solid red;
+  text-decoration: none;
+  padding: 1px 2px;
+}
+.ti-metabox .deletion:hover {
+  color: #fff;
+  background: red;
+}
+.ti-metabox textarea, .ti-metabox input[type='text'] {
+  margin: 6px 0 8px;
+  width: 98%;
+}
+.ti-metabox label {
+  font-weight: bold;
+}
+.ti-metabox label span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+.ti-metabox table {
+  width: 100%;
+}
+.ti-metabox .thead {
+  background: #ffffff;
+}
+.ti-metabox th, .ti-metabox td {
+  vertical-align: top;
+}
+.ti-metabox th {
+  text-align: left;
+  font-weight: bold;
+}
+.ti-metabox ul.metabox-tabs {
+  display: none;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+.ti-metabox ul.metabox-tabs li {
+  display: inline;
+  padding: 5px;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -khtml-border-top-left-radius: 3px;
+  -khtml-border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.ti-metabox ul.metabox-tabs li.active {
+  border-style: solid solid none;
+  border-width: 1px 1px 0;
+  background-color: #f1f1f1;
+  border-color: #dfdfdf;
+}
+.ti-metabox ul.metabox-tabs li.active a {
+  color: #333;
+}
+.ti-metabox ul.metabox-tabs a {
+  text-decoration: none;
+}
+.ti-metabox .metabox-tabs-div ul {
+  list-style: none;
+}
+.ti-metabox .metabox-tabs-div ul div.tabs-panel {
+  overflow: auto;
+  padding: 0.5em 0.9em;
+  border-style: solid;
+  border-width: 1px;
+}
+.ti-metabox .heading {
+  padding-left: 10px;
+}
+.ti-metabox .tab-content {
+  overflow: auto;
+  padding: 0.5em 0.9em;
+  border-style: solid;
+  border-width: 1px;
+}
+.ti-metabox div.tab-content {
+  border-color: #DFDFDF;
+}
+* html .clearfix {
+  height: 1%;
+}
